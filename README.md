@@ -9,4 +9,5 @@
 ## Plán hry
 Hlavní postava se propadne časoprostorem a objeví se ve školní budově nejmenované školy. Cílem hry se bude dostat z budovy školy za pomoci hádanek a puzzlů
 
-[!note]
+> [!note]
+> Body označené symbolem "*" jsou zatím pouze ve fázi teorie a není jisté zda-li budou použity, či implementovány
