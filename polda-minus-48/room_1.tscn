@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://otjdwky1gdfj"]
+
+[ext_resource type="Texture2D" uid="uid://35ov7prwqaxj" path="res://Room1.svg" id="1_3t5sg"]
+[ext_resource type="Script" uid="uid://bfu8jperxan4v" path="res://Main.cs" id="2_4ikea"]
+
+[node name="Room1" type="Sprite2D" unique_id=59835587]
+position = Vector2(960, 540)
+texture = ExtResource("1_3t5sg")
+script = ExtResource("2_4ikea")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1567370887]

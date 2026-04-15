@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="Room1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showguides="true"
+     inkscape:zoom="28.963096"
+     inkscape:cx="660.97906"
+     inkscape:cy="630.78547"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="620.3125,1205"
+       orientation="0,-1"
+       id="guide93"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="257.43106,431.4505"
+       orientation="1,0"
+       id="guide94"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="37.565048,746.33399"
+       orientation="1,0"
+       id="guide95"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="680.03785,77.344677"
+       orientation="0,-1"
+       id="guide69"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1178.8796,275.66603"
+       orientation="0,-1"
+       id="guide70"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1383.5938,241.71875"
+       orientation="0,-1"
+       id="guide71"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="789.84375,292.5"
+       orientation="0,-1"
+       id="guide86"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1054.5835,433.6602"
+       orientation="0,-1"
+       id="guide133"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-3.90625,897.96875"
+       orientation="0,-1"
+       id="guide1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="274.28009,991.88787"
+       orientation="0,-1"
+       id="guide2"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="610.01769,444.57066"
+       orientation="0,-1"
+       id="guide34"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="58.058549 : -4.772859 : 0"
+       inkscape:vp_y="3196.405 : 749.32301 : 1"
+       inkscape:vp_z="0.27062397 : 97.231646 : 0"
+       inkscape:persp3d-origin="2490.2527 : 349.96168 : 1"
+       id="perspective28" />
+  </defs>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <path
+       style="display:inline;fill:#dacfb2;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       d="M -3.4140782,1074.9424 -1.9609812,-3.4159584 C 160.6148,53.847244 309.32919,174.30932 485.76634,168.37364 l 664.93396,-0.15032 379.2725,0.90761 L 1919.0562,1.4779726 1917.8211,1077.1342 Z"
+       id="path6"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:label="stěny" />
+    <path
+       style="display:inline;fill:#875938;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       d="M -2.8327023,1078.9892 489.81715,684.65212 c 363.25505,-0.44999 -129.04467,-2.79261 1030.32605,-3.2426 l 401.9098,397.25418 z"
+       id="path1"
+       sodipodi:nodetypes="ccccc"
+       inkscape:label="podlaha" />
+    <path
+       style="display:inline;fill:#dbd1af;fill-opacity:1;stroke:#000000;stroke-width:2"
+       d="M 7.8622723,-0.5859375 268.21383,117.57813 267.04196,89.648438 400.44039,80.859375 474.85446,162.69531 v 7.8125 L 1540.2841,171.28906 1928.5654,4.296875 V 0 Z"
+       id="path4"
+       transform="translate(-8.8388348)"
+       inkscape:label="strop" />
+    <g
+       id="g89"
+       inkscape:label="katedra"
+       transform="translate(-8.8388348)"
+       style="display:inline">
+      <path
+         style="display:inline;fill:#7a3e12;fill-opacity:1;stroke:#000000;stroke-width:2.00928;stroke-dasharray:none;stroke-opacity:1"
+         d="m 435.88106,639.70437 32.4914,-32.16572 h 232.45995 l 19.5587,33.5371 z"
+         id="path89"
+         inkscape:label="deska katedry" />
+      <path
+         style="display:inline;fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2.05963;stroke-dasharray:none;stroke-opacity:1"
+         d="m 585.60321,607.05363 0.55183,-31.67065 55.45873,0.87974 -1.10367,31.3774 z"
+         id="path90"
+         inkscape:label="židle za katerdrou" />
+      <g
+         id="g34"
+         inkscape:label="PC"
+         style="display:inline;fill:#ffffff;fill-opacity:1"
+         transform="translate(2.7621358,3.3145629)">
+        <rect
+           style="display:inline;fill:#404040;fill-opacity:1;stroke:#000000;stroke-width:2.42449"
+           id="rect1"
+           width="88.378998"
+           height="63.632534"
+           x="570.24377"
+           y="541.25464"
+           inkscape:label="Monitor" />
+        <path
+           style="display:inline;fill:#404040;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:square"
+           d="m 585.02037,634.32449 h 56.62378 l 0.14307,-7.49211 h -56.78505 z"
+           id="path32"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="Podstavec" />
+        <path
+           style="display:inline;fill:#404040;fill-opacity:1;stroke:#000000;stroke-width:3.77953;stroke-linecap:square"
+           d="m 599.9359,626.59051 9.94369,-35.35534 h 8.14831 l 9.46363,35.61257 z"
+           id="path34"
+           inkscape:label="Držák"
+           sodipodi:nodetypes="ccccc" />
+      </g>
+      <path
+         style="display:inline;fill:#5b3318;fill-opacity:1;stroke:#000000;stroke-width:1.74429;stroke-dasharray:none;stroke-opacity:1"
+         d="m 447.74643,778.57372 3.51924,-137.69672 286.19211,0.55998 -2.73829,136.54303 z"
+         id="path88"
+         sodipodi:nodetypes="ccccc"
+         inkscape:label="přední stěna katedry" />
+    </g>
+    <g
+       id="g93"
+       transform="translate(-8.8388348)"
+       inkscape:label="okno + parapet"
+       style="display:inline">
+      <path
+         style="fill:#aadde9;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         d="M 245.29967,684.13942 46.771474,776.01709 46.219046,610.98446 243.23827,559.06817 Z"
+         id="path91"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#aadde9;fill-opacity:1;stroke:#000000;stroke-width:2.00003;stroke-dasharray:none;stroke-opacity:1"
+         d="M 46.402402,610.15895 47.254754,17.115549 244.50417,88.816166 242.68519,558.78254 Z"
+         id="path92"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         d="M 47.789858,775.64228 74.957463,789.97086 263.49625,697.55947 244.6132,684.46302 Z"
+         id="path93"
+         sodipodi:nodetypes="ccccc" />
+      <g
+         id="g103"
+         inkscape:label="parapet"
+         transform="translate(8.4245144,-0.82864076)">
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           d="M 66.875761,790.57068 37.288834,818.69707 Z"
+           id="path95"
+           sodipodi:nodetypes="ccc" />
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           d="m 255.97582,697.47075 -13.28125,23.82813 z"
+           id="path96"
+           sodipodi:nodetypes="ccc" />
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           d="m 37.487136,818.92263 0.611666,-43.0378 z"
+           id="path98"
+           sodipodi:nodetypes="ccc" />
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           d="m 236.52344,684.96094 c 0.39062,1.95313 6.05469,35.74219 6.05469,35.74219 z"
+           id="path99" />
+      </g>
+    </g>
+    <g
+       id="g14"
+       inkscape:label="celá tabule obrys"
+       transform="translate(-12.04461,-1.33829)"
+       style="display:inline">
+      <g
+         id="g18"
+         inkscape:label="posuvné nohy tabule">
+        <path
+           style="fill:#c8c8c8;fill-opacity:1;stroke:#000000;stroke-width:1.54993;stroke-dasharray:none;stroke-opacity:1"
+           d="m 842.32068,172.11719 -0.57115,511.34822 37.71319,-0.11829 1.50558,-509.83749 z"
+           id="path10"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="levá noha" />
+        <path
+           style="fill:#c8c8c8;fill-opacity:1;stroke:#000000;stroke-width:1.52958;stroke-dasharray:none;stroke-opacity:1"
+           d="m 1172.6798,172.48938 0.6691,232.76282 v 277.79098 l 36.2766,0.11829 -0.1183,-511.77111 z"
+           id="path11"
+           sodipodi:nodetypes="cccccc"
+           inkscape:label="pravá noha" />
+      </g>
+      <g
+         id="g17"
+         inkscape:label="křídla tabule"
+         transform="translate(0,59.662135)"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:2;stroke-dasharray:none">
+        <path
+           style="display:inline;fill:#eaeae5;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none"
+           d="m 926.14161,483.17718 -0.39062,27.34375 h 203.90631 l -0.7813,-26.17187 z"
+           id="path177" />
+        <path
+           style="fill:#003905;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           d="m 840.4461,485.76912 -149.70573,34.79051 -0.47316,-278.73505 151.51718,-0.94632 z"
+           id="path13"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="levé křídlo" />
+        <path
+           style="fill:#003905;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           d="m 1209.6377,486.4684 h 187.4338 l 1.4195,-245.45443 -188.7763,-0.27471 z"
+           id="path14"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="pravé křídlo" />
+        <path
+           style="display:inline;fill:#eaeae5;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           d="m 841.46568,240.80273 h 368.33252 l -0.2629,245.44086 -369.17906,-0.35513 z"
+           id="path12"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="prostředek" />
+      </g>
+    </g>
+    <g
+       id="g82"
+       inkscape:label="umyvadlo"
+       transform="matrix(1.30329,0,0,1.30329,-600.07093,-273.16109)"
+       style="display:inline">
+      <path
+         style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.53458;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1626.7478,733.42705 -0.029,-203.21097 98.9426,60.69361 0.2453,238.57685"
+         id="path21"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:#888888;fill-opacity:1;stroke:#000000;stroke-width:1.53458;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1665.1122,683.00821 c 0,0 -2.3599,20.33069 -1.6337,22.50898 0.7261,2.17828 15.1572,1.72448 15.1572,1.72448 l -0.2723,-4.62887 c 0,0 -3.9028,0 -7.3517,-0.27229 -3.2774,-0.25875 -1.9967,-17.15402 -1.9967,-17.15402 z"
+         id="path23"
+         sodipodi:nodetypes="csccscc" />
+      <path
+         id="path24"
+         style="fill:#ffffff;stroke:#000000;stroke-width:1.97177"
+         d="m 1695.2984,669.54168 c 0,4.97234 -13.7255,9.92278 -18.0152,12.3695 -4.2897,2.44672 -11.5493,2.9185 -15.771,0.35407 -4.2217,-2.56443 -18.9106,-8.31259 -18.7756,-13.28306 l 27.8213,0.92253 z"
+         sodipodi:nodetypes="cssccc" />
+      <path
+         style="fill:#bebebe;fill-opacity:1;stroke:#000000;stroke-width:1.53458;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1673.0085,669.21237 0.363,-7.44249 c 0,0 0.3631,-0.7261 -1.8152,-0.7261 -2.1783,0 -4.175,2.54134 -4.175,2.54134 l -4.3566,-0.36304 c 0,0 2.3842,-5.77459 6.5348,-6.35335 4.794,-0.66847 9.0126,-0.13596 8.9854,-0.0908 l -0.4537,12.61593 z"
+         id="path26"
+         sodipodi:nodetypes="ccsccsccc" />
+    </g>
+    <g
+       id="g104"
+       inkscape:label="dveře"
+       style="display:inline"
+       transform="matrix(0.9980851,-0.00557583,0.00702443,1.170366,-1.5289974,-145.43625)">
+      <path
+         style="display:inline;fill:#755945;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1425.4674,840.31555 -12.0421,-10.29716 9.7652,-391.52933 114.3525,50.5471 -3.9698,442.60153 z"
+         id="path56"
+         sodipodi:nodetypes="cccccc"
+         transform="translate(243.06795)" />
+      <path
+         style="fill:#5f381d;fill-opacity:1;stroke:#000000;stroke-width:1.86063;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1669.1476,840.83832 c 1.9118,-8.8422 3.9545,-388.10713 3.9545,-388.10713 l 94.1398,44.58809 -5.609,422.89425 z"
+         id="path100"
+         sodipodi:nodetypes="ccccc" />
+      <ellipse
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.63687;stroke-dasharray:none;stroke-opacity:1"
+         id="path103"
+         cx="1754.9231"
+         cy="715.04791"
+         rx="9.2109337"
+         ry="14.251831" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.24501;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1765.3043,684.27454 -31.7647,-6.63735 -2.6333,30.45787 10.8814,0.25234 1.9311,-18.73379 22.2595,4.8464 z"
+         id="path101"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:label="klika" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.68493;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1753.1713,710.20952 c 0.035,-5.21035 3.004,-4.51137 4.2227,-4.057 0.6449,0.24046 -0.9712,8.586 -0.7499,9.43701 0.6002,2.30851 2.5111,4.46378 2.5111,4.46378 l -8.7887,-0.7763 2.511,-2.91116 0.2909,-6.20258"
+         id="path102"
+         sodipodi:nodetypes="csscccc" />
+    </g>
+    <g
+       id="g86"
+       inkscape:label="Zářivky"
+       style="display:inline">
+      <g
+         id="g137"
+         inkscape:label="Zářivka1"
+         transform="translate(-162.41359)">
+        <g
+           id="g136"
+           transform="translate(237.26747)"
+           inkscape:label="světla">
+          <path
+             style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.03787;stroke-dasharray:none;stroke-opacity:1"
+             d="m 648.56842,68.422414 v 48.576396 l 285.84323,0.19375 V 67.701576 Z"
+             id="path104"
+             sodipodi:nodetypes="ccccc"
+             transform="translate(-237.26747)"
+             inkscape:label="pozadí" />
+          <path
+             id="rect113"
+             style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.01365;stroke-dasharray:none;stroke-opacity:1"
+             d="m 648.73781,68.853516 v 23.376953 h 23.0332 V 68.853516 Z m 23.63281,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.82813,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.63281,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.09375,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.63281,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.82813,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.63281,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.92383,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.63281,0 v 23.376953 h 23.0332 V 68.853516 Z m 24.42969,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.63281,0 v 23.376953 h 23.0332 V 68.853516 Z M 648.83546,93.023438 v 23.376952 h 23.03321 V 93.023438 Z m 23.63282,0 v 23.376952 h 23.0332 V 93.023438 Z m 23.82812,0 v 23.376952 h 23.03321 V 93.023438 Z m 23.63281,0 v 23.376952 h 23.03321 V 93.023438 Z m 23.09375,0 v 23.376952 h 23.03321 V 93.023438 Z m 23.63282,0 v 23.376952 h 23.0332 V 93.023438 Z m 23.82812,0 v 23.376952 h 23.03321 V 93.023438 Z m 23.63281,0 v 23.376952 h 23.03321 V 93.023438 Z m 23.92383,0 v 23.376952 h 23.03321 V 93.023438 Z m 23.63282,0 v 23.376952 h 23.0332 V 93.023438 Z m 24.42968,0 v 23.376952 h 23.03321 V 93.023438 Z m 23.63282,0 v 23.376952 h 23.0332 V 93.023438 Z"
+             transform="translate(-237.26747)"
+             inkscape:label="světla" />
+        </g>
+        <path
+           style="fill:#d6cfac;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           d="m 948.87255,51.342216 0.39553,63.603084 -13.55186,2.20981 -0.39062,-49.620888 z"
+           id="path186"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#e6e0c9;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           d="m 458.70817,116.96012 c 0,0 -15.90858,0.26517 -15.82871,-0.0348 0.60018,-2.25405 0.39063,-68.764034 0.39063,-68.764034 l 15.24276,21.289063 -0.1953,47.900391"
+           id="path187"
+           sodipodi:nodetypes="csccc"
+           transform="translate(190.03495)" />
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           d="m 632.32196,46.058616 317.5065,3.647983 z"
+           id="path2"
+           sodipodi:nodetypes="ccc" />
+      </g>
+      <g
+         id="g29"
+         inkscape:label="Zářivka2"
+         transform="translate(243.06795)">
+        <g
+           id="g10"
+           transform="translate(47.460938)"
+           inkscape:label="světla">
+          <path
+             style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.03787;stroke-dasharray:none;stroke-opacity:1"
+             d="m 648.56842,68.422414 v 48.576396 l 285.84323,0.19375 V 67.701576 Z"
+             id="path3"
+             sodipodi:nodetypes="ccccc"
+             transform="translate(-47.460938)" />
+          <path
+             id="rect23"
+             style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.01365;stroke-dasharray:none;stroke-opacity:1"
+             d="m 411.46927,68.853516 v 23.376953 h 23.0332 V 68.853516 Z m 23.63281,0 v 23.376953 h 23.03321 V 68.853516 Z m 23.82813,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.63281,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.0957,0 v 23.376953 h 23.03321 V 68.853516 Z m 23.63282,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.82812,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.63281,0 v 23.376953 h 23.03321 V 68.853516 Z m 23.92383,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.63281,0 v 23.376953 h 23.03321 V 68.853516 Z m 24.42774,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.63281,0 v 23.376953 h 23.0332 V 68.853516 Z M 411.56693,93.023438 v 23.376952 h 23.0332 V 93.023438 Z m 23.63281,0 v 23.376952 h 23.0332 V 93.023438 Z m 23.82812,0 v 23.376952 h 23.03321 V 93.023438 Z m 23.63282,0 v 23.376952 h 23.0332 V 93.023438 Z m 23.0957,0 v 23.376952 h 23.0332 V 93.023438 Z m 23.63281,0 v 23.376952 h 23.0332 V 93.023438 Z m 23.82813,0 v 23.376952 h 23.0332 V 93.023438 Z m 23.63281,0 v 23.376952 h 23.0332 V 93.023438 Z m 23.92383,0 v 23.376952 h 23.0332 V 93.023438 Z m 23.63281,0 v 23.376952 h 23.0332 V 93.023438 Z m 24.42773,0 v 23.376952 h 23.03321 V 93.023438 Z m 23.63282,0 v 23.376952 h 23.0332 V 93.023438 Z"
+             transform="translate(189.80653)"
+             inkscape:label="Světla" />
+        </g>
+        <path
+           style="fill:#d6cfac;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           d="m 758.63738,49.998724 -0.29297,64.906126 -12.66314,2.11215 -0.19531,-49.620885 z"
+           id="path27"
+           sodipodi:nodetypes="ccccc"
+           transform="translate(190.03495)" />
+        <path
+           style="fill:#d6cfac;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           d="m 458.70817,116.96012 c 0,0 -15.90858,0.26517 -15.82871,-0.0348 0.60018,-2.25405 0.39063,-68.764034 0.39063,-68.764034 l 15.24276,21.289063 -0.1953,47.900391"
+           id="path28"
+           sodipodi:nodetypes="csccc"
+           transform="translate(190.03495)" />
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           d="M 632.29284,45.932356 949.4314,48.100772 Z"
+           id="path29"
+           sodipodi:nodetypes="ccc" />
+      </g>
+      <g
+         id="g55"
+         inkscape:label="Zářivka3"
+         transform="translate(655.17862)">
+        <g
+           id="g37"
+           transform="translate(47.460938)"
+           inkscape:label="světla">
+          <path
+             style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.03787;stroke-dasharray:none;stroke-opacity:1"
+             d="m 648.56842,68.422414 v 48.576396 l 285.84323,0.19375 V 67.701576 Z"
+             id="path30"
+             sodipodi:nodetypes="ccccc"
+             transform="translate(-47.460938)"
+             inkscape:label="pozadí světel" />
+          <path
+             id="rect34"
+             style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.01365;stroke-dasharray:none;stroke-opacity:1"
+             d="M 601.27646 68.853516 L 601.27646 92.230469 L 624.30966 92.230469 L 624.30966 68.853516 L 601.27646 68.853516 z M 624.90927 68.853516 L 624.90927 92.230469 L 647.94247 92.230469 L 647.94247 68.853516 L 624.90927 68.853516 z M 648.7374 68.853516 L 648.7374 92.230469 L 671.7706 92.230469 L 671.7706 68.853516 L 648.7374 68.853516 z M 672.37021 68.853516 L 672.37021 92.230469 L 695.40341 92.230469 L 695.40341 68.853516 L 672.37021 68.853516 z M 695.46591 68.853516 L 695.46591 92.230469 L 718.49911 92.230469 L 718.49911 68.853516 L 695.46591 68.853516 z M 719.09872 68.853516 L 719.09872 92.230469 L 742.13193 92.230469 L 742.13193 68.853516 L 719.09872 68.853516 z M 742.92685 68.853516 L 742.92685 92.230469 L 765.96005 92.230469 L 765.96005 68.853516 L 742.92685 68.853516 z M 766.55966 68.853516 L 766.55966 92.230469 L 789.59286 92.230469 L 789.59286 68.853516 L 766.55966 68.853516 z M 790.48349 68.853516 L 790.48349 92.230469 L 813.51669 92.230469 L 813.51669 68.853516 L 790.48349 68.853516 z M 814.1163 68.853516 L 814.1163 92.230469 L 837.1495 92.230469 L 837.1495 68.853516 L 814.1163 68.853516 z M 838.54404 68.853516 L 838.54404 92.230469 L 861.57724 92.230469 L 861.57724 68.853516 L 838.54404 68.853516 z M 862.17685 68.853516 L 862.17685 92.230469 L 885.21005 92.230469 L 885.21005 68.853516 L 862.17685 68.853516 z M 601.37411 93.023438 L 601.37411 116.40039 L 624.40732 116.40039 L 624.40732 93.023438 L 601.37411 93.023438 z M 625.00693 93.023438 L 625.00693 116.40039 L 648.04013 116.40039 L 648.04013 93.023438 L 625.00693 93.023438 z M 648.83505 93.023438 L 648.83505 116.40039 L 671.86825 116.40039 L 671.86825 93.023438 L 648.83505 93.023438 z M 672.46786 93.023438 L 672.46786 116.40039 L 695.50107 116.40039 L 695.50107 93.023438 L 672.46786 93.023438 z M 695.56357 93.023438 L 695.56357 116.40039 L 718.59677 116.40039 L 718.59677 93.023438 L 695.56357 93.023438 z M 719.19638 93.023438 L 719.19638 116.40039 L 742.22958 116.40039 L 742.22958 93.023438 L 719.19638 93.023438 z M 743.0245 93.023438 L 743.0245 116.40039 L 766.05771 116.40039 L 766.05771 93.023438 L 743.0245 93.023438 z M 766.65732 93.023438 L 766.65732 116.40039 L 789.69052 116.40039 L 789.69052 93.023438 L 766.65732 93.023438 z M 790.58115 93.023438 L 790.58115 116.40039 L 813.61435 116.40039 L 813.61435 93.023438 L 790.58115 93.023438 z M 814.21396 93.023438 L 814.21396 116.40039 L 837.24716 116.40039 L 837.24716 93.023438 L 814.21396 93.023438 z M 838.64169 93.023438 L 838.64169 116.40039 L 861.6749 116.40039 L 861.6749 93.023438 L 838.64169 93.023438 z M 862.2745 93.023438 L 862.2745 116.40039 L 885.30771 116.40039 L 885.30771 93.023438 L 862.2745 93.023438 z "
+             inkscape:label="světla" />
+        </g>
+        <path
+           style="fill:#d6cfac;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           d="m 758.36117,50.136831 -0.98351,64.768019 -11.69639,2.11215 -0.19531,-49.620885 z"
+           id="path53"
+           sodipodi:nodetypes="ccccc"
+           transform="translate(190.03495)" />
+        <path
+           style="fill:#d6cfac;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           d="m 458.70817,116.96012 c 0,0 -15.90858,0.26517 -15.82871,-0.0348 0.60018,-2.25405 0.39063,-68.764034 0.39063,-68.764034 l 15.24276,21.289063 -0.1953,47.900391"
+           id="path54"
+           sodipodi:nodetypes="csccc"
+           transform="translate(190.03495)" />
+        <path
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+           d="M 632.29284,45.932356 949.4314,48.100772 Z"
+           id="path55"
+           sodipodi:nodetypes="ccc" />
+      </g>
+      <path
+         style="fill:#e6e0c9;fill-opacity:1;stroke:none;stroke-width:0.552427"
+         d="m 1296.4598,57.318326 c -3.9217,-5.502325 -7.0688,-10.065724 -6.9937,-10.140886 0.075,-0.07516 19.6288,0.0014 43.4524,0.170051 23.8236,0.16869 60.4064,0.427529 81.2951,0.575199 20.8886,0.147669 57.8667,0.393619 82.1735,0.546555 24.3068,0.152936 50.5644,0.355988 58.3501,0.451227 l 14.0095,0.0023 0.1465,8.932838 v 8.76194 l -78.5137,0.182405 c -43.1826,0.100323 -102.8758,0.258957 -132.6516,0.35252 L 1303.59,67.32259 Z"
+         id="path5"
+         sodipodi:nodetypes="sssssscccsscs" />
+      <path
+         style="fill:#e6e0c9;fill-opacity:1;stroke:none;stroke-width:0.552427;stroke-opacity:1"
+         d="m 1568.8032,57.76909 v -8.81442 l 12.8648,0.109804 c 6.8741,0.05867 14.3993,0.113328 16.7222,0.20716 l 4.2234,0.170603 -6.2871,8.452848 -6.2872,8.452848 -4.2892,0.177906 c -2.3591,0.09785 -7.0548,0.178321 -10.435,0.178827 l -6.5119,0.12299 z"
+         id="path7"
+         sodipodi:nodetypes="ccsscccsscc" />
+      <path
+         style="fill:#e6e0c9;fill-opacity:1;stroke:none;stroke-width:0.0690534;stroke-opacity:1"
+         d="m 884.09633,57.194951 c -4.01319,-5.605861 -7.28726,-10.201923 -7.27571,-10.213472 0.0196,-0.01964 7.06307,0.01881 17.71434,0.09669 2.52563,0.01847 8.06458,0.05649 12.30877,0.08449 4.2442,0.02801 8.89365,0.06132 10.33212,0.07402 l 2.85708,0.0231 v 10.020213 10.020213 l -4.20362,0.022 c -2.17907,0.0114 -8.56867,0.03173 -14.19911,0.04361 l -10.23717,0.02161 z"
+         id="path8"
+         sodipodi:nodetypes="ssssscccsscs" />
+      <path
+         style="fill:#e6e0c9;fill-opacity:1;stroke:none;stroke-width:0.390625;stroke-opacity:1"
+         d="m 919.92188,57.34484 v -9.981559 l 4.63867,0.0015 c 2.55127,8.12e-4 22.74414,0.130197 44.87304,0.287523 22.12891,0.157327 53.98931,0.378276 70.80081,0.490999 16.8115,0.112724 41.6845,0.290453 55.2734,0.394954 13.5889,0.104502 27.0581,0.190506 29.9317,0.19112 l 5.2246,0.0011 v 8.957283 8.957284 l -32.5684,0.12453 c -17.9126,0.06849 -53.9697,0.168702 -80.1269,0.22269 -26.15728,0.05399 -58.91851,0.151256 -72.80278,0.21615 l -25.24414,0.117992 z"
+         id="path9" />
+      <path
+         style="fill:#e6e0c9;fill-opacity:1;stroke:none;stroke-width:0.390625;stroke-opacity:1"
+         d="m 1130.6641,57.71646 v -8.982759 l 14.3066,0.118647 c 7.8687,0.06526 21.4269,0.174391 30.1294,0.242524 l 15.8227,0.123878 -6.4921,8.59375 -6.4922,8.59375 -2.5923,0.123411 c -1.4258,0.06788 -12.0625,0.133794 -23.6372,0.146485 l -21.0449,0.02307 z"
+         id="path15" />
+      <path
+         style="fill:#e6e0c9;fill-opacity:1;stroke:none;stroke-width:0.276214;stroke-opacity:1"
+         d="m 478.74347,57.291965 -7.18529,-10.059442 0.83238,-0.03962 c 0.74196,-0.03532 117.64423,1.279153 144.67059,1.626707 5.8868,0.0757 11.96178,0.138004 13.49994,0.138447 l 2.79666,8.05e-4 v 8.96071 8.96071 l -5.6969,0.08249 c -3.1333,0.04537 -23.50232,0.114875 -45.2645,0.154465 -21.76218,0.03959 -52.3701,0.108475 -68.0176,0.153079 l -28.45,0.0811 z"
+         id="path16" />
+      <path
+         style="fill:#e6e0c9;fill-opacity:1;stroke:none;stroke-width:0.276214;stroke-opacity:1"
+         d="m 633.35775,57.937085 v -8.975656 l 3.97057,0.07451 c 2.18382,0.04098 14.97078,0.195661 28.41548,0.343735 44.55013,0.490655 48.71144,0.53902 54.03428,0.628018 l 5.28258,0.08833 v 8.31639 8.31639 l -32.00624,0.09194 c -17.60344,0.05057 -38.2366,0.09195 -45.85146,0.09197 l -13.84521,3.3e-5 z"
+         id="path17" />
+      <path
+         style="fill:#e6e0c9;fill-opacity:1;stroke:none;stroke-width:0.276214;stroke-opacity:1"
+         d="m 725.06066,58.441842 v -8.378129 h 0.8709 c 2.04613,0 48.86059,0.548277 53.92297,0.63153 3.05734,0.05028 5.5588,0.117574 5.5588,0.149543 0,0.03197 -2.96272,3.598191 -6.58382,7.924935 l -6.58382,7.866807 -14.58104,1.16e-4 c -8.01958,6.3e-5 -18.63621,0.04134 -23.59252,0.09172 l -9.01147,0.09161 z"
+         id="path18" />
+    </g>
+    <g
+       id="g118"
+       inkscape:label="židle + lavice řada1 1 L"
+       transform="matrix(0.86343536,0,0,0.85867352,-331.13742,-28.405873)"
+       style="display:inline">
+      <g
+         id="g106"
+         inkscape:label="lavice 1"
+         transform="matrix(1.2036086,0,0,1.2036086,-118.26449,-68.109855)"
+         style="fill:#57290b;fill-opacity:1">
+        <path
+           style="fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:2"
+           d="m 1118.9326,834.31821 -0.4658,-101.5625 h 23.122 l -0.049,101.5625 z"
+           id="path94"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:2.16012"
+           d="m 803.20191,892.82012 -0.46255,-119.30268 h 22.96172 l -0.0485,119.30268 z"
+           id="path97"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:2.14034"
+           d="m 1073.2735,892.29226 -0.4629,-117.02754 h 22.9815 l -0.049,117.02754 z"
+           id="path105"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#7a3e12;fill-opacity:1;stroke:#000000;stroke-width:2.6086"
+           d="m 803.95474,772.33157 290.61496,1.15497 44.4182,-40.44874 -279.55818,-2.92277 z"
+           id="path106"
+           sodipodi:nodetypes="ccccc" />
+      </g>
+      <g
+         id="g111"
+         inkscape:label="židle 1L"
+         transform="translate(309.10494,-22.275152)">
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:3.13894"
+           d="m 693.06242,928.43264 c -10e-5,0.26415 -2.12616,74.74716 -2.12616,74.74716 h 12.4067 v -74.77944 z"
+           id="path107"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="přední pravá noha" />
+        <path
+           id="path108"
+           style="display:inline;fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2"
+           d="m 591.36472,875.78026 c -5.07487,0 -9.16016,4.08529 -9.16016,9.16016 v 39.13672 c 9.35694,0.40642 126.5625,-1.22657 126.5625,-1.22657 0,0 0.78125,-20.87921 0.78125,-37.91015 0,-5.07487 -4.08529,-9.16016 -9.16016,-9.16016 z"
+           sodipodi:nodetypes="ssccsss"
+           inkscape:label="opěradlo" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2.67565"
+           d="m 600.85578,973.14904 25.09167,-45.59413 77.18519,0.34057 L 688.9368,974.74 Z"
+           id="path109"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="Sedátko" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 601.54408,889.16765 c -9e-5,0.49345 -2.11569,139.62985 -2.11569,139.62985 h 12.34558 V 889.10735 Z"
+           id="path110"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní levá noha" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 681.0936,888.89143 c -9e-5,0.49345 -2.11569,139.62987 -2.11569,139.62987 h 12.34558 V 888.83113 Z"
+           id="path111"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní pravá noha" />
+      </g>
+      <g
+         id="g117"
+         inkscape:label="židle 1P"
+         transform="translate(455.22309,-22.409193)">
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:3.13894"
+           d="m 693.06242,928.43264 c -10e-5,0.26415 -2.12616,74.74716 -2.12616,74.74716 h 12.4067 v -74.77944 z"
+           id="path112"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="přední pravá noha" />
+        <path
+           id="path113"
+           style="display:inline;fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2"
+           d="m 591.36472,875.78026 c -5.07487,0 -9.16016,4.08529 -9.16016,9.16016 v 39.13672 c 9.35694,0.40642 126.5625,-1.22657 126.5625,-1.22657 0,0 0.78125,-20.87921 0.78125,-37.91015 0,-5.07487 -4.08529,-9.16016 -9.16016,-9.16016 z"
+           sodipodi:nodetypes="ssccsss"
+           inkscape:label="opěradlo" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2.67565"
+           d="m 600.85578,973.14904 25.09167,-45.59413 77.18519,0.34057 L 688.9368,974.74 Z"
+           id="path114"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="Sedátko" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 601.54408,889.16765 c -9e-5,0.49345 -2.11569,139.62985 -2.11569,139.62985 h 12.34558 V 889.10735 Z"
+           id="path115"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní levá noha" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 681.0936,888.89143 c -9e-5,0.49345 -2.11569,139.62987 -2.11569,139.62987 h 12.34558 V 888.83113 Z"
+           id="path116"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní pravá noha" />
+      </g>
+    </g>
+    <g
+       id="g133"
+       inkscape:label="židle + lavice řada1 S"
+       transform="matrix(0.83665296,0,0,0.83665296,134.68747,-12.155465)"
+       style="display:inline">
+      <g
+         id="g121"
+         inkscape:label="lavice 1"
+         transform="matrix(1.2036086,0,0,1.2036086,-118.26449,-68.109855)">
+        <path
+           style="fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:2"
+           d="m 1118.9326,834.31821 -0.4658,-101.5625 h 23.122 l -0.049,101.5625 z"
+           id="path118"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:2.16012"
+           d="m 803.20191,892.82012 -0.46255,-119.30268 h 22.96172 l -0.0485,119.30268 z"
+           id="path119"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:2.14034"
+           d="m 1073.2735,892.29226 -0.4629,-117.02754 h 22.9815 l -0.049,117.02754 z"
+           id="path120"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#7a3e12;fill-opacity:1;stroke:#000000;stroke-width:2.6086"
+           d="m 803.95474,772.33157 290.61496,1.15497 44.4182,-40.44874 -279.55818,-2.92277 z"
+           id="path121"
+           sodipodi:nodetypes="ccccc" />
+      </g>
+      <g
+         id="g126"
+         inkscape:label="židle 1L"
+         transform="translate(309.10494,-22.275152)">
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:3.13894"
+           d="m 693.06242,928.43264 c -10e-5,0.26415 -2.12616,74.74716 -2.12616,74.74716 h 12.4067 v -74.77944 z"
+           id="path122"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="přední pravá noha" />
+        <path
+           id="path123"
+           style="display:inline;fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2"
+           d="m 591.36472,875.78026 c -5.07487,0 -9.16016,4.08529 -9.16016,9.16016 v 39.13672 c 9.35694,0.40642 126.5625,-1.22657 126.5625,-1.22657 0,0 0.78125,-20.87921 0.78125,-37.91015 0,-5.07487 -4.08529,-9.16016 -9.16016,-9.16016 z"
+           sodipodi:nodetypes="ssccsss"
+           inkscape:label="opěradlo" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2.67565"
+           d="m 600.85578,973.14904 25.09167,-45.59413 77.18519,0.34057 L 688.9368,974.74 Z"
+           id="path124"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="Sedátko" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 601.54408,889.16765 c -9e-5,0.49345 -2.11569,139.62985 -2.11569,139.62985 h 12.34558 V 889.10735 Z"
+           id="path125"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní levá noha" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 681.0936,888.89143 c -9e-5,0.49345 -2.11569,139.62987 -2.11569,139.62987 h 12.34558 V 888.83113 Z"
+           id="path126"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní pravá noha" />
+      </g>
+      <g
+         id="g131"
+         inkscape:label="židle 1P"
+         transform="translate(455.22309,-22.409193)">
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:3.13894"
+           d="m 693.06242,928.43264 c -10e-5,0.26415 -2.12616,74.74716 -2.12616,74.74716 h 12.4067 v -74.77944 z"
+           id="path127"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="přední pravá noha" />
+        <path
+           id="path128"
+           style="display:inline;fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2"
+           d="m 591.36472,875.78026 c -5.07487,0 -9.16016,4.08529 -9.16016,9.16016 v 39.13672 c 9.35694,0.40642 126.5625,-1.22657 126.5625,-1.22657 0,0 0.78125,-20.87921 0.78125,-37.91015 0,-5.07487 -4.08529,-9.16016 -9.16016,-9.16016 z"
+           sodipodi:nodetypes="ssccsss"
+           inkscape:label="opěradlo" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2.67565"
+           d="m 600.85578,973.14904 25.09167,-45.59413 77.18519,0.34057 L 688.9368,974.74 Z"
+           id="path129"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="Sedátko" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 601.54408,889.16765 c -9e-5,0.49345 -2.11569,139.62985 -2.11569,139.62985 h 12.34558 V 889.10735 Z"
+           id="path130"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní levá noha" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 681.0936,888.89143 c -9e-5,0.49345 -2.11569,139.62987 -2.11569,139.62987 h 12.34558 V 888.83113 Z"
+           id="path131"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní pravá noha" />
+      </g>
+    </g>
+    <g
+       id="g85"
+       inkscape:label="židle + lavice řada2 S"
+       transform="matrix(1.0830407,0,0,1.0830407,-271.11073,-90.546146)"
+       style="display:inline;fill:#ac4400;fill-opacity:1">
+      <g
+         id="g74"
+         inkscape:label="lavice 1"
+         transform="matrix(1.2036086,0,0,1.2036086,-118.26449,-68.109855)"
+         style="fill:#57290b;fill-opacity:1">
+        <path
+           style="fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:2"
+           d="m 1118.9326,834.31821 -0.4658,-101.5625 h 23.122 l -0.049,101.5625 z"
+           id="path71"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:2.16012"
+           d="m 803.20191,892.82012 -0.46255,-119.30268 h 22.96172 l -0.0485,119.30268 z"
+           id="path72"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:2.14034"
+           d="m 1073.2735,892.29226 -0.4629,-117.02754 h 22.9815 l -0.049,117.02754 z"
+           id="path73"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#7a3e12;fill-opacity:1;stroke:#000000;stroke-width:2.6086"
+           d="m 803.95474,772.33157 290.61496,1.15497 44.4182,-40.44874 -279.55818,-2.92277 z"
+           id="path74"
+           sodipodi:nodetypes="ccccc" />
+      </g>
+      <g
+         id="g79"
+         inkscape:label="židle 1L"
+         transform="translate(309.10494,-22.275152)"
+         style="fill:#ac4400;fill-opacity:1">
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:3.13894"
+           d="m 693.06242,928.43264 c -10e-5,0.26415 -2.12616,74.74716 -2.12616,74.74716 h 12.4067 v -74.77944 z"
+           id="path75"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="přední pravá noha" />
+        <path
+           id="path76"
+           style="display:inline;fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2"
+           d="m 591.36472,875.78026 c -5.07487,0 -9.16016,4.08529 -9.16016,9.16016 v 39.13672 c 9.35694,0.40642 126.5625,-1.22657 126.5625,-1.22657 0,0 0.78125,-20.87921 0.78125,-37.91015 0,-5.07487 -4.08529,-9.16016 -9.16016,-9.16016 z"
+           sodipodi:nodetypes="ssccsss"
+           inkscape:label="opěradlo" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2.67565"
+           d="m 600.85578,973.14904 25.09167,-45.59413 77.18519,0.34057 L 688.9368,974.74 Z"
+           id="path77"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="Sedátko" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 601.54408,889.16765 c -9e-5,0.49345 -2.11569,139.62985 -2.11569,139.62985 h 12.34558 V 889.10735 Z"
+           id="path78"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní levá noha" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 681.0936,888.89143 c -9e-5,0.49345 -2.11569,139.62987 -2.11569,139.62987 h 12.34558 V 888.83113 Z"
+           id="path79"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní pravá noha" />
+      </g>
+      <g
+         id="g84"
+         inkscape:label="židle 1P"
+         transform="translate(455.22309,-22.409193)"
+         style="fill:#ac4400;fill-opacity:1">
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:3.13894"
+           d="m 693.06242,928.43264 c -10e-5,0.26415 -2.12616,74.74716 -2.12616,74.74716 h 12.4067 v -74.77944 z"
+           id="path80"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="přední pravá noha" />
+        <path
+           id="path81"
+           style="display:inline;fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2"
+           d="m 591.36472,875.78026 c -5.07487,0 -9.16016,4.08529 -9.16016,9.16016 v 39.13672 c 9.35694,0.40642 126.5625,-1.22657 126.5625,-1.22657 0,0 0.78125,-20.87921 0.78125,-37.91015 0,-5.07487 -4.08529,-9.16016 -9.16016,-9.16016 z"
+           sodipodi:nodetypes="ssccsss"
+           inkscape:label="opěradlo" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2.67565"
+           d="m 600.85578,973.14904 25.09167,-45.59413 77.18519,0.34057 L 688.9368,974.74 Z"
+           id="path82"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="Sedátko" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 601.54408,889.16765 c -9e-5,0.49345 -2.11569,139.62985 -2.11569,139.62985 h 12.34558 V 889.10735 Z"
+           id="path83"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní levá noha" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 681.0936,888.89143 c -9e-5,0.49345 -2.11569,139.62987 -2.11569,139.62987 h 12.34558 V 888.83113 Z"
+           id="path84"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní pravá noha" />
+      </g>
+    </g>
+    <g
+       id="g20"
+       transform="matrix(1.3843615,0,0,1.2720809,-658.01812,-253.0305)"
+       inkscape:label="sloup"
+       style="display:inline;fill:#ffffff">
+      <path
+         style="fill:#e6e0c9;fill-opacity:1;stroke:#000000;stroke-width:1.54335;stroke-dasharray:none;stroke-opacity:1"
+         d="m 662.57842,269.55472 95.75063,-6.45821 3.02852,631.13207 -99.18308,-11.69327 z"
+         id="path86"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#d6cfac;fill-opacity:1;stroke:#000000;stroke-width:1.53458;stroke-dasharray:none;stroke-opacity:1"
+         d="m 762.24178,894.38935 48.27644,-48.1108 0.58879,-519.4346 -52.31452,-62.82219 z"
+         id="path87"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="g64"
+       inkscape:label="židle + lavice řada2 L"
+       transform="matrix(1.1093777,0,0,1.1093777,-832.64435,-113.98623)"
+       style="display:inline">
+      <g
+         id="g58"
+         inkscape:label="lavice 1"
+         transform="matrix(1.2036086,0,0,1.2036086,-118.26449,-68.109851)"
+         style="display:inline;fill:#57290b;fill-opacity:1">
+        <path
+           style="fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:2"
+           d="m 1118.9326,834.31821 -0.4658,-101.5625 h 23.122 l -0.049,101.5625 z"
+           id="path64"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:2.16012"
+           d="m 803.20191,892.82012 -0.46255,-119.30268 h 22.96172 l -0.0485,119.30268 z"
+           id="path52"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:2.14034"
+           d="m 1073.2735,892.29226 -0.4629,-117.02754 h 22.9815 l -0.049,117.02754 z"
+           id="path57"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#7a3e12;fill-opacity:1;stroke:#000000;stroke-width:2.6086"
+           d="m 803.95474,772.33157 290.61496,1.15497 44.4182,-40.44874 -279.55818,-2.92277 z"
+           id="path58"
+           sodipodi:nodetypes="ccccc" />
+      </g>
+      <g
+         id="g63"
+         inkscape:label="židle 1L"
+         transform="translate(309.10494,-22.275152)">
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:3.13894"
+           d="m 693.06242,928.43264 c -10e-5,0.26415 -2.12616,74.74716 -2.12616,74.74716 h 12.4067 v -74.77944 z"
+           id="path59"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="přední pravá noha" />
+        <path
+           id="path60"
+           style="display:inline;fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2"
+           d="m 591.36472,875.78026 c -5.07487,0 -9.16016,4.08529 -9.16016,9.16016 v 39.13672 c 9.35694,0.40642 126.5625,-1.22657 126.5625,-1.22657 0,0 0.78125,-20.87921 0.78125,-37.91015 0,-5.07487 -4.08529,-9.16016 -9.16016,-9.16016 z"
+           sodipodi:nodetypes="ssccsss"
+           inkscape:label="opěradlo" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2.67565"
+           d="m 600.85578,973.14904 25.09167,-45.59413 77.18519,0.34057 L 688.9368,974.74 Z"
+           id="path61"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="Sedátko" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 601.54408,889.16765 c -9e-5,0.49345 -2.11569,139.62985 -2.11569,139.62985 h 12.34558 V 889.10735 Z"
+           id="path62"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní levá noha" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 681.0936,888.89143 c -9e-5,0.49345 -2.11569,139.62987 -2.11569,139.62987 h 12.34558 V 888.83113 Z"
+           id="path63"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní pravá noha" />
+      </g>
+      <g
+         id="g69"
+         inkscape:label="židle 1P"
+         transform="translate(455.22309,-22.409193)">
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:3.13894"
+           d="m 693.06242,928.43264 c -10e-5,0.26415 -2.12616,74.74716 -2.12616,74.74716 h 12.4067 v -74.77944 z"
+           id="path65"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="přední pravá noha" />
+        <path
+           id="path66"
+           style="display:inline;fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2"
+           d="m 591.36472,875.78026 c -5.07487,0 -9.16016,4.08529 -9.16016,9.16016 v 39.13672 c 9.35694,0.40642 126.5625,-1.22657 126.5625,-1.22657 0,0 0.78125,-20.87921 0.78125,-37.91015 0,-5.07487 -4.08529,-9.16016 -9.16016,-9.16016 z"
+           sodipodi:nodetypes="ssccsss"
+           inkscape:label="opěradlo" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2.67565"
+           d="m 600.85578,973.14904 25.09167,-45.59413 77.18519,0.34057 L 688.9368,974.74 Z"
+           id="path67"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="Sedátko" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 601.54408,889.16765 c -9e-5,0.49345 -2.11569,139.62985 -2.11569,139.62985 h 12.34558 V 889.10735 Z"
+           id="path68"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní levá noha" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 681.0936,888.89143 c -9e-5,0.49345 -2.11569,139.62987 -2.11569,139.62987 h 12.34558 V 888.83113 Z"
+           id="path69"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní pravá noha" />
+      </g>
+    </g>
+    <g
+       id="g148"
+       inkscape:label="židle + lavice řada1 R"
+       transform="matrix(0.79059143,0,0,0.79059143,583.39624,28.52897)"
+       style="display:inline">
+      <g
+         id="g138"
+         inkscape:label="lavice 1"
+         transform="matrix(1.2036086,0,0,1.2036086,-118.26449,-68.109855)">
+        <path
+           style="display:inline;fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:1.92938"
+           d="m 1118.8987,826.94874 -0.4673,-94.22835 h 23.1927 l -0.05,94.22835 z"
+           id="path133"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:2.16012"
+           d="m 803.20191,892.82012 -0.46255,-119.30268 h 22.96172 l -0.0485,119.30268 z"
+           id="path134"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:2.14034"
+           d="m 1071.9673,891.71171 -0.4629,-117.02754 h 22.9815 l -0.049,117.02754 z"
+           id="path135"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#7a3e12;fill-opacity:1;stroke:#000000;stroke-width:2.6086"
+           d="m 803.95474,772.33157 290.61496,1.15497 44.4182,-40.44874 -279.55818,-2.92277 z"
+           id="path136"
+           sodipodi:nodetypes="ccccc" />
+      </g>
+      <g
+         id="g142"
+         inkscape:label="židle 1L"
+         transform="translate(309.10494,-22.275152)">
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:3.13894"
+           d="m 693.06242,928.43264 c -10e-5,0.26415 -2.12616,74.74716 -2.12616,74.74716 h 12.4067 v -74.77944 z"
+           id="path138"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="přední pravá noha" />
+        <path
+           id="path139"
+           style="display:inline;fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2"
+           d="m 591.36472,875.78026 c -5.07487,0 -9.16016,4.08529 -9.16016,9.16016 v 39.13672 c 9.35694,0.40642 126.5625,-1.22657 126.5625,-1.22657 0,0 0.78125,-20.87921 0.78125,-37.91015 0,-5.07487 -4.08529,-9.16016 -9.16016,-9.16016 z"
+           sodipodi:nodetypes="ssccsss"
+           inkscape:label="opěradlo" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2.67565"
+           d="m 600.85578,973.14904 25.09167,-45.59413 77.18519,0.34057 L 688.9368,974.74 Z"
+           id="path140"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="Sedátko" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 601.54408,889.16765 c -9e-5,0.49345 -2.11569,139.62985 -2.11569,139.62985 h 12.34558 V 889.10735 Z"
+           id="path141"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní levá noha" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 681.0936,888.89143 c -9e-5,0.49345 -2.11569,139.62987 -2.11569,139.62987 h 12.34558 V 888.83113 Z"
+           id="path142"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní pravá noha" />
+      </g>
+      <g
+         id="g147"
+         inkscape:label="židle 1P"
+         transform="translate(455.22309,-22.409193)">
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:3.13894"
+           d="m 693.06242,928.43264 c -10e-5,0.26415 -2.12616,74.74716 -2.12616,74.74716 h 12.4067 v -74.77944 z"
+           id="path143"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="přední pravá noha" />
+        <path
+           id="path144"
+           style="display:inline;fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2"
+           d="m 591.36472,875.78026 c -5.07487,0 -9.16016,4.08529 -9.16016,9.16016 v 39.13672 c 9.35694,0.40642 126.5625,-1.22657 126.5625,-1.22657 0,0 0.78125,-20.87921 0.78125,-37.91015 0,-5.07487 -4.08529,-9.16016 -9.16016,-9.16016 z"
+           sodipodi:nodetypes="ssccsss"
+           inkscape:label="opěradlo" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2.67565"
+           d="m 600.85578,973.14904 25.09167,-45.59413 77.18519,0.34057 L 688.9368,974.74 Z"
+           id="path145"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="Sedátko" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 601.54408,889.16765 c -9e-5,0.49345 -2.11569,139.62985 -2.11569,139.62985 h 12.34558 V 889.10735 Z"
+           id="path146"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní levá noha" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 681.0936,888.89143 c -9e-5,0.49345 -2.11569,139.62987 -2.11569,139.62987 h 12.34558 V 888.83113 Z"
+           id="path147"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní pravá noha" />
+      </g>
+    </g>
+    <g
+       id="g162"
+       inkscape:label="židle + lavice řada2 R"
+       transform="matrix(1.0321512,0,0,1.0321512,304.7722,-38.434612)"
+       style="display:inline;fill:#ac4400;fill-opacity:1">
+      <g
+         id="g151"
+         inkscape:label="lavice 1"
+         transform="matrix(1.2036086,0,0,1.2036086,-118.26449,-68.109855)"
+         style="fill:#57290b;fill-opacity:1">
+        <path
+           style="fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:2"
+           d="m 1118.9326,834.31821 -0.4658,-101.5625 h 23.122 l -0.049,101.5625 z"
+           id="path148"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:2.16012"
+           d="m 803.20191,892.82012 -0.46255,-119.30268 h 22.96172 l -0.0485,119.30268 z"
+           id="path149"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#57290b;fill-opacity:1;stroke:#000000;stroke-width:2.14034"
+           d="m 1073.2735,892.29226 -0.4629,-117.02754 h 22.9815 l -0.049,117.02754 z"
+           id="path150"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#7a3e12;fill-opacity:1;stroke:#000000;stroke-width:2.6086"
+           d="m 803.95474,772.33157 290.61496,1.15497 44.4182,-40.44874 -279.55818,-2.92277 z"
+           id="path151"
+           sodipodi:nodetypes="ccccc" />
+      </g>
+      <g
+         id="g156"
+         inkscape:label="židle 1L"
+         transform="translate(309.10494,-22.275152)"
+         style="fill:#ac4400;fill-opacity:1">
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:3.13894"
+           d="m 693.06242,928.43264 c -10e-5,0.26415 -2.12616,74.74716 -2.12616,74.74716 h 12.4067 v -74.77944 z"
+           id="path152"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="přední pravá noha" />
+        <path
+           id="path153"
+           style="display:inline;fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2"
+           d="m 591.36472,875.78026 c -5.07487,0 -9.16016,4.08529 -9.16016,9.16016 v 39.13672 c 9.35694,0.40642 126.5625,-1.22657 126.5625,-1.22657 0,0 0.78125,-20.87921 0.78125,-37.91015 0,-5.07487 -4.08529,-9.16016 -9.16016,-9.16016 z"
+           sodipodi:nodetypes="ssccsss"
+           inkscape:label="opěradlo" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2.67565"
+           d="m 600.85578,973.14904 25.09167,-45.59413 77.18519,0.34057 L 688.9368,974.74 Z"
+           id="path154"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="Sedátko" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 601.54408,889.16765 c -9e-5,0.49345 -2.11569,139.62985 -2.11569,139.62985 h 12.34558 V 889.10735 Z"
+           id="path155"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní levá noha" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 681.0936,888.89143 c -9e-5,0.49345 -2.11569,139.62987 -2.11569,139.62987 h 12.34558 V 888.83113 Z"
+           id="path156"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní pravá noha" />
+      </g>
+      <g
+         id="g161"
+         inkscape:label="židle 1P"
+         transform="translate(455.22309,-22.409193)"
+         style="fill:#ac4400;fill-opacity:1">
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:3.13894"
+           d="m 693.06242,928.43264 c -10e-5,0.26415 -2.12616,74.74716 -2.12616,74.74716 h 12.4067 v -74.77944 z"
+           id="path157"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="přední pravá noha" />
+        <path
+           id="path158"
+           style="display:inline;fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2"
+           d="m 591.36472,875.78026 c -5.07487,0 -9.16016,4.08529 -9.16016,9.16016 v 39.13672 c 9.35694,0.40642 126.5625,-1.22657 126.5625,-1.22657 0,0 0.78125,-20.87921 0.78125,-37.91015 0,-5.07487 -4.08529,-9.16016 -9.16016,-9.16016 z"
+           sodipodi:nodetypes="ssccsss"
+           inkscape:label="opěradlo" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:2.67565"
+           d="m 600.85578,973.14904 25.09167,-45.59413 77.18519,0.34057 L 688.9368,974.74 Z"
+           id="path159"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="Sedátko" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 601.54408,889.16765 c -9e-5,0.49345 -2.11569,139.62985 -2.11569,139.62985 h 12.34558 V 889.10735 Z"
+           id="path160"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní levá noha" />
+        <path
+           style="fill:#ac4400;fill-opacity:1;stroke:#000000;stroke-width:4.27959"
+           d="m 681.0936,888.89143 c -9e-5,0.49345 -2.11569,139.62987 -2.11569,139.62987 h 12.34558 V 888.83113 Z"
+           id="path161"
+           sodipodi:nodetypes="ccccc"
+           inkscape:label="zadní pravá noha" />
+      </g>
+    </g>
+    <g
+       id="g176"
+       inkscape:label="basketbalový míč"
+       transform="translate(111.59029,85.073784)"
+       style="display:inline">
+      <circle
+         style="fill:#fa6700;fill-opacity:1;stroke:#000000;stroke-width:2"
+         id="path162"
+         cx="1275"
+         cy="529.6875"
+         r="18.75" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.72527"
+         d="m 1275.1047,510.78898 -0.013,37.66496"
+         id="path173" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.72527"
+         d="m 1293.7235,528.63366 -37.665,0.0421"
+         id="path174" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.02282"
+         d="m 1265.2654,513.96443 c 6.8809,15.80856 2.9921,23.03813 0,31.97172"
+         id="path175"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.02282"
+         d="m 1288.2186,544.02939 c -11.5715,-14.39152 -6.0877,-22.38609 -4.4095,-31.66618"
+         id="path176"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <ellipse
+       style="fill:#404040;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-dasharray:none"
+       id="path19"
+       cx="661.42572"
+       cy="630.17572"
+       rx="14.016229"
+       ry="6.5046902" />
+    <path
+       style="fill:#404040;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-dasharray:none"
+       d="m 647.85892,629.49072 c 0,0 3.03834,-0.82864 3.59077,-0.34527 0.55243,0.48337 6.89687,3.61446 8.25188,3.72888 0.41571,0.0351 5.38876,-0.34935 6.4306,-0.63011 1.82274,-0.49119 8.10411,-3.44363 8.45041,-3.58215 v 0"
+       id="path20"
+       sodipodi:nodetypes="cssscc" />
+  </g>
+</svg>
