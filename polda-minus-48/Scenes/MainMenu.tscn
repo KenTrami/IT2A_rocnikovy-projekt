@@ -1,0 +1,75 @@
+[gd_scene format=3 uid="uid://cjkjno5pkyjxc"]
+
+[ext_resource type="Script" uid="uid://vnavpv84ryrl" path="res://Mainmenu.cs" id="1_tt5f1"]
+
+[sub_resource type="Theme" id="Theme_k6fhs"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g5xlr"]
+bg_color = Color(0.19600001, 0.2, 0.19759999, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+corner_detail = 13
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lupcn"]
+bg_color = Color(0.19607843, 0.2, 0.19607843, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="Node" type="Node" unique_id=822596547]
+
+[node name="Menu" type="Control" parent="." unique_id=416733214]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tt5f1")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Menu" unique_id=1179164828]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -243.75
+offset_top = -130.0
+offset_right = 243.75
+offset_bottom = 130.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 4
+
+[node name="Button" type="Button" parent="Menu/VBoxContainer" unique_id=2044984858]
+layout_mode = 2
+size_flags_vertical = 3
+theme = SubResource("Theme_k6fhs")
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_g5xlr")
+text = "Hrát"
+script = ExtResource("1_tt5f1")
+
+[node name="Button2" type="Button" parent="Menu/VBoxContainer" unique_id=1929005733]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_lupcn")
+text = "Nastavení"
+
+[node name="Button3" type="Button" parent="Menu/VBoxContainer" unique_id=962410576]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_lupcn")
+text = "Konec"
+script = ExtResource("1_tt5f1")
+
+[node name="zvuky" type="Node" parent="." unique_id=446635144]
+
+[connection signal="pressed" from="Menu/VBoxContainer/Button" to="Menu/VBoxContainer/Button" method="_on_hrat_pressed"]
+[connection signal="pressed" from="Menu/VBoxContainer/Button3" to="Menu/VBoxContainer/Button" method="_on_button_3_pressed"]

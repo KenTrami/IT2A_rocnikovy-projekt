@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Polda minus 48"
-run/main_scene="uid://otjdwky1gdfj"
+run/main_scene="uid://cjkjno5pkyjxc"
 config/features=PackedStringArray("4.6", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
 
