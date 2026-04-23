@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hqnrhrxgnls5"
-path="res://.godot/imported/Room1.svg-3344903611ef87ed2781b1bfd68e7895.ctex"
+uid="uid://3uq8mesvbxa6"
+path="res://.godot/imported/Basketbalový míč.svg-7711167d88e856f72ea2dccd13875f83.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Textures/Room1.svg"
-dest_files=["res://.godot/imported/Room1.svg-3344903611ef87ed2781b1bfd68e7895.ctex"]
+source_file="res://Textures/Basketbalový míč.svg"
+dest_files=["res://.godot/imported/Basketbalový míč.svg-7711167d88e856f72ea2dccd13875f83.ctex"]
 
 [params]
 

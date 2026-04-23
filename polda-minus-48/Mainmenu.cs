@@ -16,10 +16,17 @@ public partial class Mainmenu : Control
 	    {
 		    GetTree().ChangeSceneToFile("res://Scenes/Room1.tscn");
 			GD.Print("Funguju");
+			
 	    }
 	private void _on_button_3_pressed()
 	{
 		GetTree().Quit();
 		
 	}
+	private void _on_zamknute_dvere()
+	{
+		GD.Print("Sakra, je zamčeno!");
+		
+	}
+	
 }

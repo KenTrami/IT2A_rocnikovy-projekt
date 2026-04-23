@@ -21,6 +21,11 @@ corner_radius_bottom_left = 4
 
 [node name="Node" type="Node" unique_id=822596547]
 
+[node name="Node2D" type="Node2D" parent="." unique_id=972161144]
+
+[node name="Sprite2D" type="Sprite2D" parent="Node2D" unique_id=687931716]
+position = Vector2(965, 533)
+
 [node name="Menu" type="Control" parent="." unique_id=416733214]
 layout_mode = 3
 anchors_preset = 15

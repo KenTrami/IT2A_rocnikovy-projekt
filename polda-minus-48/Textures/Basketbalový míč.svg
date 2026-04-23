@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="15.451mm"
+   height="15.451mm"
+   viewBox="0 0 15.451 15.451"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="Basketbalový míč.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="5.7513468"
+     inkscape:cx="82.589351"
+     inkscape:cy="43.555016"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="15.451"
+       height="15.451"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-72.857875,-128.35868)">
+    <g
+       id="g176"
+       inkscape:label="basketbalový míč"
+       transform="matrix(0.29719356,0,0,0.29719356,-298.21618,-21.351314)"
+       style="display:inline">
+      <circle
+         style="fill:#fa6700;fill-opacity:1;stroke:#000000;stroke-width:2"
+         id="path162"
+         cx="1275"
+         cy="529.6875"
+         r="18.75" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.72527"
+         d="m 1275.1047,510.78898 -0.013,37.66496"
+         id="path173" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.72527"
+         d="m 1293.7235,528.63366 -37.665,0.0421"
+         id="path174" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.02282"
+         d="m 1265.2654,513.96443 c 6.8809,15.80856 2.9921,23.03813 0,31.97172"
+         id="path175"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.02282"
+         d="m 1288.2186,544.02939 c -11.5715,-14.39152 -6.0877,-22.38609 -4.4095,-31.66618"
+         id="path176"
+         sodipodi:nodetypes="cc" />
+    </g>
+  </g>
+</svg>

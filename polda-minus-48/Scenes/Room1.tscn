@@ -1,9 +1,85 @@
 [gd_scene format=3 uid="uid://bh5swbn7r1jca"]
 
-[ext_resource type="Texture2D" uid="uid://35ov7prwqaxj" path="res://Textures/Room1.svg" id="2_igrul"]
+[ext_resource type="Texture2D" uid="uid://hqnrhrxgnls5" path="res://Textures/Room1.svg" id="2_igrul"]
+[ext_resource type="Script" uid="uid://vnavpv84ryrl" path="res://Mainmenu.cs" id="3_igrul"]
 
-[node name="Node2D" type="Node2D" unique_id=62132145]
+[node name="Node" type="Node" unique_id=1993851222]
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=173772629]
-position = Vector2(963, 539)
+[node name="Node2D" type="Node2D" parent="." unique_id=1116191341]
+
+[node name="Sprite2D" type="Sprite2D" parent="Node2D" unique_id=497467759]
+position = Vector2(960, 540)
 texture = ExtResource("2_igrul")
+
+[node name="Control" type="Control" parent="." unique_id=514008857]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1916.0
+offset_bottom = 1082.0
+script = ExtResource("3_igrul")
+
+[node name="odemčené dveře" type="Button" parent="Control" unique_id=1596751344]
+layout_mode = 0
+offset_left = 1659.0
+offset_top = 357.0
+offset_right = 1782.0
+offset_bottom = 936.0
+text = "Zkusit otevřít
+dveře"
+script = ExtResource("3_igrul")
+
+[node name="zamčené dveře" type="Button" parent="Control" unique_id=211773635]
+layout_mode = 0
+offset_left = 1659.0
+offset_top = 357.0
+offset_right = 1782.0
+offset_bottom = 936.0
+text = "Zkusit otevřít
+dveře"
+script = ExtResource("3_igrul")
+
+[node name="Podívat se za tabuli" type="Button" parent="Control" unique_id=1986559839]
+layout_mode = 0
+offset_left = 1068.0
+offset_top = 431.0
+offset_right = 1183.0
+offset_bottom = 511.0
+text = "podívat se
+za tabuli"
+
+[node name="Sebrat pravítko" type="Button" parent="Control" unique_id=277017955]
+layout_mode = 0
+offset_left = 483.0
+offset_top = 602.0
+offset_right = 611.0
+offset_bottom = 645.0
+text = "Sebrat pravítko"
+
+[node name="podivně svítící zářivka" type="Button" parent="Control" unique_id=951886988]
+layout_mode = 0
+offset_left = 879.0
+offset_top = 70.0
+offset_right = 984.0
+offset_bottom = 131.0
+text = "\"Podívná zářika\"
+obsahující (ulepené klíče) klíče"
+
+[node name="Podívat se z okna" type="Button" parent="Control" unique_id=1096520898]
+layout_mode = 0
+offset_left = 44.0
+offset_top = 626.0
+offset_right = 190.0
+offset_bottom = 729.0
+text = "Podívat se z okna"
+
+[node name="Zhasnout světlo" type="Button" parent="Control" unique_id=1843315]
+layout_mode = 0
+offset_left = 1807.0
+offset_top = 658.0
+offset_right = 1872.0
+offset_bottom = 747.0
+text = "Zhasnout 
+světlo"
+
+[connection signal="pressed" from="Control/odemčené dveře" to="Control/odemčené dveře" method="_on_zamknute_dvere"]
+[connection signal="pressed" from="Control/zamčené dveře" to="Control/zamčené dveře" method="_on_zamknute_dvere"]

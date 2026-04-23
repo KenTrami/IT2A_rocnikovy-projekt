@@ -11,7 +11,6 @@
    sodipodi:docname="Room1.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
@@ -25,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showguides="true"
-     inkscape:zoom="1.8101935"
-     inkscape:cx="1391.5639"
-     inkscape:cy="595.79266"
+     inkscape:zoom="0.90509675"
+     inkscape:cx="1290.4698"
+     inkscape:cy="592.75431"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -92,48 +91,6 @@
   </sodipodi:namedview>
   <defs
      id="defs1">
-    <pattern
-       inkscape:collect="always"
-       xlink:href="#Tiles"
-       preserveAspectRatio="xMidYMid"
-       id="pattern19"
-       patternTransform="matrix(0,0.19999994,-0.19999994,0,0,0)"
-       x="0"
-       y="0" />
-    <pattern
-       patternUnits="userSpaceOnUse"
-       width="100"
-       height="100"
-       id="Tiles"
-       preserveAspectRatio="xMidYMid"
-       patternTransform="translate(0,0) scale(0.2,0.2)"
-       inkscape:collect="always"
-       style="fill:#a8cbfe"
-       inkscape:isstock="true"
-       inkscape:label="Tiles">
-      <g
-   id="g9422">
-        <rect
-   style="fill-opacity:1;stroke:none"
-   width="100"
-   height="100"
-   x="0"
-   y="0"
-   id="rect2996" />
-
-        <path
-   id="rect7383"
-   style="fill:#ffffff;fill-opacity:0.42487;stroke-width:0"
-   d="M 60,40 50,50 V 0 H 60 Z M 50,50 v 10 40 H 60 V 60 h 40 V 50 H 60 Z m 0,0 -10,10 H 0 V 50 Z" />
-
-        <path
-   id="rect7385"
-   style="fill:#000000;fill-opacity:0.300518;stroke-width:0"
-   d="M 40,60 50,50 v 50 H 40 Z M 100,40 V 50 H 50 L 60,40 Z M 40,0 V 40 H 0 V 50 H 40 50 V 40 0 Z" />
-
-      </g>
-
-    </pattern>
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
        inkscape:vp_x="58.058549 : -4.772859 : 0"
@@ -314,7 +271,7 @@
        transform="matrix(1.30329,0,0,1.30329,-600.26624,-273.25875)"
        style="display:inline;fill:none;fill-opacity:1">
       <path
-         style="display:inline;fill:url(#pattern19);fill-opacity:1;stroke:#000000;stroke-width:1.53457788;stroke-dasharray:none;stroke-opacity:1"
+         style="display:inline;fill:#dacfb2;fill-opacity:1;stroke:#000000;stroke-width:1.53458;stroke-dasharray:none;stroke-opacity:1"
          d="m 1725.9067,829.48654 -0.2453,-238.57685 -98.9426,-60.69361 0.029,203.21097 z"
          id="path21"
          sodipodi:nodetypes="cccc"
@@ -362,16 +319,16 @@
          rx="9.2109337"
          ry="14.251831" />
       <path
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.24501;stroke-dasharray:none;stroke-opacity:1"
-         d="m 1765.3043,684.27454 -31.7647,-6.63735 -2.6333,30.45787 10.8814,0.25234 1.9311,-18.73379 22.2595,4.8464 z"
-         id="path101"
-         sodipodi:nodetypes="ccccccc"
-         inkscape:label="klika" />
-      <path
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.68493;stroke-dasharray:none;stroke-opacity:1"
          d="m 1753.1713,710.20952 c 0.035,-5.21035 3.004,-4.51137 4.2227,-4.057 0.6449,0.24046 -0.9712,8.586 -0.7499,9.43701 0.6002,2.30851 2.5111,4.46378 2.5111,4.46378 l -8.7887,-0.7763 2.511,-2.91116 0.2909,-6.20258"
          id="path102"
          sodipodi:nodetypes="csscccc" />
+      <path
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.24501;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1765.3043,684.27454 -31.7647,-6.63735 -2.6333,30.45787 10.8814,0.25234 1.9311,-18.73379 22.2595,4.8464 z"
+         id="path101"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:label="klika" />
     </g>
     <g
        id="g86"
@@ -533,7 +490,7 @@
     <g
        id="g118"
        inkscape:label="židle + lavice řada1 1 L"
-       transform="matrix(0.86343536,0,0,0.85867352,-331.13742,-28.405873)"
+       transform="matrix(0.86343536,0,0,0.85867352,-331.13742,-28.405872)"
        style="display:inline">
       <g
          id="g106"
@@ -1159,36 +1116,6 @@
            sodipodi:nodetypes="ccccc"
            inkscape:label="zadní pravá noha" />
       </g>
-    </g>
-    <g
-       id="g176"
-       inkscape:label="basketbalový míč"
-       transform="translate(111.59029,85.073784)"
-       style="display:inline">
-      <circle
-         style="fill:#fa6700;fill-opacity:1;stroke:#000000;stroke-width:2"
-         id="path162"
-         cx="1275"
-         cy="529.6875"
-         r="18.75" />
-      <path
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.72527"
-         d="m 1275.1047,510.78898 -0.013,37.66496"
-         id="path173" />
-      <path
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.72527"
-         d="m 1293.7235,528.63366 -37.665,0.0421"
-         id="path174" />
-      <path
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.02282"
-         d="m 1265.2654,513.96443 c 6.8809,15.80856 2.9921,23.03813 0,31.97172"
-         id="path175"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.02282"
-         d="m 1288.2186,544.02939 c -11.5715,-14.39152 -6.0877,-22.38609 -4.4095,-31.66618"
-         id="path176"
-         sodipodi:nodetypes="cc" />
     </g>
     <ellipse
        style="fill:#404040;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-dasharray:none"
