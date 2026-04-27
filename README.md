@@ -9,12 +9,14 @@
 ## Plán hry
 Hlavní postava se propadne časoprostorem a objeví se ve školní budově nejmenované školy. Hlavní protagonista chce odejít z místa ve, kterém se zjevil. Háček je ale v tom, že dveře jsou zamčené...
 
-##15.4.
--Přídání místnosti 1 (Místnost 1 nemá finální podobu)
+## 15.4.
+- Přídání místnosti 1 (Místnost 1 nemá finální podobu)
 - Správné nastavení kamery u "Místnosti 1"
 - Vytvoření provizorního Main menu
 - pokus o zprovoznění tlačítka
-
+## 23.4.
+- Přidání provizorních tlačítek (budou později nahrazeny předměty)
+- drobná úprava místnosti 1
 
 > [!note]
 > Body označené symbolem "*" jsou zatím pouze ve fázi teorie a není jisté zda-li budou použity, či implementovány
