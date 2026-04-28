@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dg5u7hdko5vmp"
-path="res://.godot/imported/Room1.svg-aa64debadf9401266f0b2f9d187970ad.ctex"
+uid="uid://35ov7prwqaxj"
+path="res://.godot/imported/Room1-rosviceno.svg-2478b2fcf1269b76cd5c60e08fa44276.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Room1.svg"
-dest_files=["res://.godot/imported/Room1.svg-aa64debadf9401266f0b2f9d187970ad.ctex"]
+source_file="res://Textures/Room1-rosviceno.svg"
+dest_files=["res://.godot/imported/Room1-rosviceno.svg-2478b2fcf1269b76cd5c60e08fa44276.ctex"]
 
 [params]
 

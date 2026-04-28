@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dg5u7hdko5vmp"
-path="res://.godot/imported/Room1.svg-aa64debadf9401266f0b2f9d187970ad.ctex"
+uid="uid://ic8nyisf77h7"
+path="res://.godot/imported/Pravítko.svg-dc1f03110e8b0465846bdf83457cfa6e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Room1.svg"
-dest_files=["res://.godot/imported/Room1.svg-aa64debadf9401266f0b2f9d187970ad.ctex"]
+source_file="res://Textures/Pravítko.svg"
+dest_files=["res://.godot/imported/Pravítko.svg-dc1f03110e8b0465846bdf83457cfa6e.ctex"]
 
 [params]
 
