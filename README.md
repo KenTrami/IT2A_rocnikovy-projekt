@@ -17,6 +17,12 @@ Hlavní postava se propadne časoprostorem a objeví se ve školní budově nejm
 ## 23.4.
 - Přidání provizorních tlačítek (budou později nahrazeny předměty)
 - drobná úprava místnosti 1
+## 29.4.
+- Úprava místnosti 1
+- Přidání předmětu
+- Vytvoření místa, kde se budou zobrazovat monology postavy
+- Organizování souborů a kódu
+- Všechna tlačítka nyní píšou text do konzole
 
 > [!note]
 > Body označené symbolem "*" jsou zatím pouze ve fázi teorie a není jisté zda-li budou použity, či implementovány
