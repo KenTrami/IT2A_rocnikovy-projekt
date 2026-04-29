@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://caxai38ea7vrg"]
 
 [ext_resource type="Texture2D" uid="uid://xbdbmubih4b2" path="res://MainMenu.svg" id="1_e8kt5"]
-[ext_resource type="Script" uid="uid://bfu8jperxan4v" path="res://Main.cs" id="2_mxk1q"]
+[ext_resource type="Script" uid="uid://bfu8jperxan4v" path="res://Scripts/Main.cs" id="2_mxk1q"]
 
 [node name="Mainmenu" type="Node2D" unique_id=824204561]
 
