@@ -1,18 +1,18 @@
 [gd_scene format=3 uid="uid://bh5swbn7r1jca"]
 
-[ext_resource type="Script" uid="uid://df5flfwjy0y8x" path="res://Scripts/Room1.cs" id="1_minv7"]
 [ext_resource type="Texture2D" uid="uid://hqnrhrxgnls5" path="res://Textures/Room1.svg" id="2_lxq7o"]
 [ext_resource type="Texture2D" uid="uid://35ov7prwqaxj" path="res://Textures/Room1-rosviceno.svg" id="2_minv7"]
 [ext_resource type="Texture2D" uid="uid://ic8nyisf77h7" path="res://Textures/Pravítko.svg" id="3_minv7"]
+[ext_resource type="Script" uid="uid://dif51bb3g7jrh" path="res://Scripts/Room1Skript.cs" id="5_lxq7o"]
 
 [node name="Node" type="Node" unique_id=1993851222]
-script = ExtResource("1_minv7")
+script = ExtResource("5_lxq7o")
 
-[node name="Room1" type="Sprite2D" parent="." unique_id=138993597]
+[node name="Room_1" type="Sprite2D" parent="." unique_id=138993597]
 position = Vector2(960, 540)
 texture = ExtResource("2_lxq7o")
 
-[node name="Room1Rosviceno" type="Sprite2D" parent="." unique_id=1288104505]
+[node name="Room1_Rosviceno" type="Sprite2D" parent="." unique_id=1288104505]
 position = Vector2(960, 540)
 texture = ExtResource("2_minv7")
 
@@ -25,7 +25,24 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 1915.0
 offset_bottom = 1070.0
-script = ExtResource("1_minv7")
+script = ExtResource("5_lxq7o")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Controls" unique_id=2128863058]
+
+[node name="Panel" type="Panel" parent="Controls/CanvasLayer" unique_id=408960471]
+offset_left = 465.0
+offset_top = 896.0
+offset_right = 1406.0
+offset_bottom = 1082.0
+
+[node name="Label" type="Label" parent="Controls/CanvasLayer" unique_id=264397711]
+offset_left = 463.0
+offset_top = 898.0
+offset_right = 1406.0
+offset_bottom = 1081.0
+theme_override_font_sizes/font_size = 34
+horizontal_alignment = 1
+script = ExtResource("5_lxq7o")
 
 [node name="OdemceneDvere" type="Button" parent="Controls" unique_id=409493931]
 layout_mode = 0
@@ -35,7 +52,7 @@ offset_right = 1782.0
 offset_bottom = 936.0
 text = "Zkusit otevřít
 dveře"
-script = ExtResource("1_minv7")
+script = ExtResource("5_lxq7o")
 
 [node name="ZamceneDvere" type="Button" parent="Controls" unique_id=1354330770]
 layout_mode = 0
@@ -45,7 +62,7 @@ offset_right = 1782.0
 offset_bottom = 936.0
 text = "Zkusit otevřít
 dveře"
-script = ExtResource("1_minv7")
+script = ExtResource("5_lxq7o")
 
 [node name="PodivatSeZaTabuli" type="Button" parent="Controls" unique_id=761607668]
 layout_mode = 0
@@ -55,7 +72,7 @@ offset_right = 1179.0
 offset_bottom = 486.0
 text = "podívat se
 za tabuli"
-script = ExtResource("1_minv7")
+script = ExtResource("5_lxq7o")
 
 [node name="SebratPravitko" type="Button" parent="Controls" unique_id=89190552]
 layout_mode = 0
@@ -64,7 +81,7 @@ offset_top = 604.0
 offset_right = 600.0
 offset_bottom = 669.0
 text = "Sebrat pravítko"
-script = ExtResource("1_minv7")
+script = ExtResource("5_lxq7o")
 
 [node name="PodivneSviticiZarivka" type="Button" parent="Controls" unique_id=976063721]
 layout_mode = 0
@@ -74,7 +91,7 @@ offset_right = 984.0
 offset_bottom = 131.0
 text = "\"Podívná zářika\"
 obsahující (ulepené klíče)"
-script = ExtResource("1_minv7")
+script = ExtResource("5_lxq7o")
 
 [node name="PodivatSeZOkna" type="Button" parent="Controls" unique_id=1316042714]
 layout_mode = 0
@@ -83,7 +100,7 @@ offset_top = 626.0
 offset_right = 190.0
 offset_bottom = 729.0
 text = "Podívat se z okna"
-script = ExtResource("1_minv7")
+script = ExtResource("5_lxq7o")
 
 [node name="ZhasnoutSvetlo" type="Button" parent="Controls" unique_id=2084679271]
 layout_mode = 1
@@ -96,27 +113,10 @@ offset_left = -1.5251465
 offset_top = 9.109985
 offset_right = 1.8548584
 offset_bottom = 6.369995
-script = ExtResource("1_minv7")
-
-[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2128863058]
-
-[node name="Panel" type="Panel" parent="CanvasLayer" unique_id=408960471]
-offset_left = -1.0
-offset_top = 896.0
-offset_right = 1919.0
-offset_bottom = 1082.0
-
-[node name="Label" type="Label" parent="CanvasLayer" unique_id=264397711]
-offset_left = 6.0
-offset_top = 898.0
-offset_right = 1922.0
-offset_bottom = 1081.0
-theme_override_font_sizes/font_size = 34
-text = "..."
-horizontal_alignment = 1
+script = ExtResource("5_lxq7o")
 
 [connection signal="pressed" from="Controls/ZamceneDvere" to="Controls/ZamceneDvere" method="_on_zamknute_dvere"]
-[connection signal="pressed" from="Controls/PodivatSeZaTabuli" to="Controls" method="_on_podivat_se_za_tabuli_pressed"]
+[connection signal="pressed" from="Controls/PodivatSeZaTabuli" to="Controls/CanvasLayer/Label" method="_on_podivat_se_za_tabuli_pressed"]
 [connection signal="pressed" from="Controls/SebratPravitko" to="Controls" method="_on_sebrat_pravitko_pressed"]
 [connection signal="pressed" from="Controls/PodivneSviticiZarivka" to="Controls" method="_on_podivne_svitici_zarivka_pressed"]
 [connection signal="pressed" from="Controls/PodivatSeZOkna" to="Controls" method="_on_podivat_se_z_okna_pressed"]
