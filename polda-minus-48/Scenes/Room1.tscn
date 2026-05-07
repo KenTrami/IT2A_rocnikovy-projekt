@@ -4,6 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://35ov7prwqaxj" path="res://Textures/Room1-rosviceno.svg" id="2_minv7"]
 [ext_resource type="Texture2D" uid="uid://ic8nyisf77h7" path="res://Textures/Pravítko.svg" id="3_minv7"]
 [ext_resource type="Script" uid="uid://dif51bb3g7jrh" path="res://Scripts/Room1Skript.cs" id="5_lxq7o"]
+[ext_resource type="Script" uid="uid://wnwq71ypequn" path="res://Scripts/PodivatSeZaTabuli.cs" id="6_j3utp"]
+[ext_resource type="Script" uid="uid://dv2mr4tyrlxp3" path="res://Scripts/TlackaSeSvetlem.cs" id="7_4uh16"]
 
 [node name="Node" type="Node" unique_id=1993851222]
 script = ExtResource("5_lxq7o")
@@ -35,14 +37,15 @@ offset_top = 896.0
 offset_right = 1406.0
 offset_bottom = 1082.0
 
-[node name="Label" type="Label" parent="Controls/CanvasLayer" unique_id=264397711]
-offset_left = 463.0
-offset_top = 898.0
-offset_right = 1406.0
-offset_bottom = 1081.0
+[node name="Label" type="Label" parent="Controls/CanvasLayer/Panel" unique_id=264397711]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 theme_override_font_sizes/font_size = 34
 horizontal_alignment = 1
-script = ExtResource("5_lxq7o")
 
 [node name="OdemceneDvere" type="Button" parent="Controls" unique_id=409493931]
 layout_mode = 0
@@ -72,7 +75,7 @@ offset_right = 1179.0
 offset_bottom = 486.0
 text = "podívat se
 za tabuli"
-script = ExtResource("5_lxq7o")
+script = ExtResource("6_j3utp")
 
 [node name="SebratPravitko" type="Button" parent="Controls" unique_id=89190552]
 layout_mode = 0
@@ -91,7 +94,7 @@ offset_right = 984.0
 offset_bottom = 131.0
 text = "\"Podívná zářika\"
 obsahující (ulepené klíče)"
-script = ExtResource("5_lxq7o")
+script = ExtResource("7_4uh16")
 
 [node name="PodivatSeZOkna" type="Button" parent="Controls" unique_id=1316042714]
 layout_mode = 0
@@ -100,7 +103,7 @@ offset_top = 626.0
 offset_right = 190.0
 offset_bottom = 729.0
 text = "Podívat se z okna"
-script = ExtResource("5_lxq7o")
+script = ExtResource("7_4uh16")
 
 [node name="ZhasnoutSvetlo" type="Button" parent="Controls" unique_id=2084679271]
 layout_mode = 1
@@ -113,10 +116,10 @@ offset_left = -1.5251465
 offset_top = 9.109985
 offset_right = 1.8548584
 offset_bottom = 6.369995
-script = ExtResource("5_lxq7o")
+script = ExtResource("7_4uh16")
 
 [connection signal="pressed" from="Controls/ZamceneDvere" to="Controls/ZamceneDvere" method="_on_zamknute_dvere"]
-[connection signal="pressed" from="Controls/PodivatSeZaTabuli" to="Controls/CanvasLayer/Label" method="_on_podivat_se_za_tabuli_pressed"]
+[connection signal="pressed" from="Controls/PodivatSeZaTabuli" to="Controls/CanvasLayer/Panel/Label" method="_on_podivat_se_za_tabuli_pressed"]
 [connection signal="pressed" from="Controls/SebratPravitko" to="Controls" method="_on_sebrat_pravitko_pressed"]
 [connection signal="pressed" from="Controls/PodivneSviticiZarivka" to="Controls" method="_on_podivne_svitici_zarivka_pressed"]
 [connection signal="pressed" from="Controls/PodivatSeZOkna" to="Controls" method="_on_podivat_se_z_okna_pressed"]
