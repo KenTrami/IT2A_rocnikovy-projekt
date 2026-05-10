@@ -23,6 +23,8 @@ Hlavní postava se propadne časoprostorem a objeví se ve školní budově nejm
 - Vytvoření místa, kde se budou zobrazovat monology postavy
 - Organizování souborů a kódu
 - Všechna tlačítka nyní píšou text do konzole
+## 7.5.
+- Některá tlačítka nyní zobrazují text.
 
 > [!note]
 > Body označené symbolem "*" jsou zatím pouze ve fázi teorie a není jisté zda-li budou použity, či implementovány
