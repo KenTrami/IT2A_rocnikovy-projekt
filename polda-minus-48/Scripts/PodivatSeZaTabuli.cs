@@ -9,6 +9,7 @@ public partial class PodivatSeZaTabuli : Button
 	{
 		label=GetNode<Label>("/root/Node/Controls/CanvasLayer/Panel/Label");
 		
+		
 		Pressed += _on_podivat_se_za_tabuli_pressed;
 	}
 
@@ -18,10 +19,7 @@ public partial class PodivatSeZaTabuli : Button
 	}
 	private void _on_podivat_se_za_tabuli_pressed()
 	{
-		//GD.Print("");
-		//GetNode<Label>("CanvasLayer/Label").Text = "Ahoj světe!";
-		//GetNode<Label>("/root/Node/Controls/CanvasLayer/Panel/Label").Text = "Ahoj" ;
-		//label.Text = "Ahoj světe!";
+		
 		label.Text="Jé hele míček! Škoda že na něho nedošáhnu.";
 
 	}

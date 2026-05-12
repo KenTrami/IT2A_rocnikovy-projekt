@@ -19,8 +19,6 @@ public partial class Main : Node2D
         camera.Position = textureSize / 2;
 
 		camera.MakeCurrent();
-
-		GetNode<Button>("Button").TooltipText = "Toto je moje tlačítko";
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.

@@ -8,6 +8,9 @@ public partial class Room1Skript : Node
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
+		label= GetNode<Label>("/root/Node/Controls/CanvasLayer/Panel/Label");
+	//Když dědím z Node nemusím mít: Pressed += _nazevtlacitka
+	//Když dědím z Button musím mít: Pressed += _nazevtlacitka
 		
 	}
 
@@ -17,16 +20,10 @@ public partial class Room1Skript : Node
 	}
 private void _on_zamknute_dvere()
 	{
-		GD.Print("Sakra, je zamčeno!");
+		label.Text="Sakra, je zamčeno!";
 	}
 	
-	bool PravitkoNaStole=true;
-	private void _on_sebrat_pravitko_pressed()
-	{
-		if(!PravitkoNaStole==false)
-		GD.Print("Pravítko. Beru ho, může se hodit.");
-		GetNode<Sprite2D>("../Pravítko").Hide(); //.. - zkratka pro node
-	}	
+	
 	
 
 }
