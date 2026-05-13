@@ -1,12 +1,13 @@
 [gd_scene format=3 uid="uid://bh5swbn7r1jca"]
 
 [ext_resource type="Texture2D" uid="uid://hqnrhrxgnls5" path="res://Textures/Room1.svg" id="2_lxq7o"]
-[ext_resource type="Texture2D" uid="uid://35ov7prwqaxj" path="res://Textures/Room1-rosviceno.svg" id="2_minv7"]
+[ext_resource type="Texture2D" uid="uid://mrfrn741k6jk" path="res://Textures/Room1-rosviceno.svg" id="2_minv7"]
 [ext_resource type="Texture2D" uid="uid://ic8nyisf77h7" path="res://Textures/Pravítko.svg" id="3_minv7"]
 [ext_resource type="Script" uid="uid://dif51bb3g7jrh" path="res://Scripts/Room1Skript.cs" id="5_lxq7o"]
 [ext_resource type="Script" uid="uid://wnwq71ypequn" path="res://Scripts/PodivatSeZaTabuli.cs" id="6_j3utp"]
 [ext_resource type="Script" uid="uid://c86rnte4n255o" path="res://Scripts/SebratPravitko.cs" id="6_kdje2"]
 [ext_resource type="Script" uid="uid://dv2mr4tyrlxp3" path="res://Scripts/TlackaSeSvetlem.cs" id="7_4uh16"]
+[ext_resource type="Script" uid="uid://bm1m4h7r7twib" path="res://Scripts/Umyvadlo.cs" id="8_kdje2"]
 
 [node name="Node" type="Node" unique_id=1993851222]
 script = ExtResource("5_lxq7o")
@@ -119,9 +120,24 @@ offset_right = 1.8548584
 offset_bottom = 6.369995
 script = ExtResource("7_4uh16")
 
+[node name="Umyvadlo" type="Button" parent="Controls" unique_id=150149419]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.80100006
+anchor_top = 0.522
+anchor_right = 0.851
+anchor_bottom = 0.605
+offset_left = -0.91516113
+offset_top = -0.54003906
+offset_right = 0.33496094
+offset_bottom = -1.3500366
+script = ExtResource("8_kdje2")
+
 [connection signal="pressed" from="Controls/ZamceneDvere" to="Controls/ZamceneDvere" method="_on_zamknute_dvere"]
 [connection signal="pressed" from="Controls/PodivatSeZaTabuli" to="Controls/CanvasLayer/Panel/Label" method="_on_podivat_se_za_tabuli_pressed"]
 [connection signal="pressed" from="Controls/SebratPravitko" to="Controls" method="_on_sebrat_pravitko_pressed"]
 [connection signal="pressed" from="Controls/PodivneSviticiZarivka" to="Controls" method="_on_podivne_svitici_zarivka_pressed"]
 [connection signal="pressed" from="Controls/PodivatSeZOkna" to="Controls" method="_on_podivat_se_z_okna_pressed"]
 [connection signal="pressed" from="Controls/ZhasnoutSvetlo" to="Controls" method="_on_zhasnout_svetlo_pressed"]
+[connection signal="pressed" from="Controls/Umyvadlo" to="." method="_on_umyvadlo_pressed"]

@@ -26,6 +26,12 @@ public partial class SebratPravitko : Button
 		if(!PravitkoNaStole==false){
 		label.Text="Pravítko. Beru ho, může se hodit.";
 		GetNode<Sprite2D>("/root/Node/Pravítko").Hide(); //.. - zkratka pro node
+		
+		PravitkoNaStole=false;
+		}
+		else
+		{
+			label.Text="Na stole už nic není.";
 		}
 	}	
 
