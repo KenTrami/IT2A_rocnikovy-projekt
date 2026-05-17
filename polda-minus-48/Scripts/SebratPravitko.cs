@@ -5,7 +5,7 @@ public partial class SebratPravitko : Button
 {
 	// Called when the node enters the scene tree for the first time.
 	private Label label;
-	private Panel textPozadi;
+	private Inventory inventar=new Inventory();
 	private Label text;
 	
 	public override void _Ready()

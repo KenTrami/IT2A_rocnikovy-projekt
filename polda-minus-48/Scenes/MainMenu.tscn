@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://cjkjno5pkyjxc"]
 
+[ext_resource type="Texture2D" uid="uid://cgv65qi36serw" path="res://Textures/MENU.png" id="1_853f1"]
 [ext_resource type="Script" uid="uid://dbe5lga1q76oo" path="res://Scripts/MainmenuSkript.cs" id="1_tt5f1"]
 
 [sub_resource type="Theme" id="Theme_k6fhs"]
@@ -21,13 +22,18 @@ corner_radius_bottom_left = 4
 
 [node name="Node" type="Node" unique_id=822596547]
 
-[node name="Node2D" type="Node2D" parent="." unique_id=972161144]
+[node name="Menu2" type="Sprite2D" parent="." unique_id=1638121454]
+position = Vector2(964, 547.25)
+scale = Vector2(1.15311, 1.1684378)
+texture = ExtResource("1_853f1")
 
 [node name="Menu" type="Control" parent="." unique_id=416733214]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_top = -4.0
+offset_bottom = -4.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_tt5f1")
