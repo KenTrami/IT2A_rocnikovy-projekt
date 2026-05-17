@@ -25,6 +25,8 @@ Hlavní postava se propadne časoprostorem a objeví se ve školní budově nejm
 - Všechna tlačítka nyní píšou text do konzole
 ## 7.5.
 - Některá tlačítka nyní zobrazují text.
+## 17.5.
+- Všechna tlačítka zobrazují text
 
 > [!note]
 > Body označené symbolem "*" jsou zatím pouze ve fázi teorie a není jisté zda-li budou použity, či implementovány
