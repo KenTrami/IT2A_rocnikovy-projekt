@@ -3,6 +3,7 @@ using System;
 
 public partial class PodivatSeZaTabuli : Button
 {
+	public Sprite2D pravitko;
 	private Label label;
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
@@ -20,7 +21,19 @@ public partial class PodivatSeZaTabuli : Button
 	private void _on_podivat_se_za_tabuli_pressed()
 	{
 		
-		label.Text="Jé hele míček! Škoda že na něho nedošáhnu.";
+		if (Inventory.ItemCheck(pravitko)==true)
+		{
+			label.Text="A je to! Vyštoural jsem ho ven";
+			GetNode<Sprite2D>("/root/Node/BasketbalovýMíč").Show();
+			GetNode<Button>("/root/Node/Controls/SebratMic").Show();
+		}
+
+		else
+		{
+			label.Text="Jé hele míček! Škoda že na něho nedošáhnu.";	
+		}
+		
+		
 
 	}
 }

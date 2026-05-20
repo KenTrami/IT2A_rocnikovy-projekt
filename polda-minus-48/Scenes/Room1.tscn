@@ -1,16 +1,25 @@
 [gd_scene format=3 uid="uid://bh5swbn7r1jca"]
 
+[ext_resource type="Script" uid="uid://cvl3ik6snd38o" path="res://Scripts/Main.cs" id="1_ucp0a"]
 [ext_resource type="Texture2D" uid="uid://hqnrhrxgnls5" path="res://Textures/Room1.svg" id="2_lxq7o"]
 [ext_resource type="Texture2D" uid="uid://mrfrn741k6jk" path="res://Textures/Room1-rosviceno.svg" id="2_minv7"]
 [ext_resource type="Texture2D" uid="uid://ic8nyisf77h7" path="res://Textures/Pravítko.svg" id="3_minv7"]
+[ext_resource type="Texture2D" uid="uid://3uq8mesvbxa6" path="res://Textures/Basketbalový míč.svg" id="5_3w57h"]
 [ext_resource type="Script" uid="uid://dif51bb3g7jrh" path="res://Scripts/Room1Skript.cs" id="5_lxq7o"]
 [ext_resource type="Script" uid="uid://wnwq71ypequn" path="res://Scripts/PodivatSeZaTabuli.cs" id="6_j3utp"]
 [ext_resource type="Script" uid="uid://c86rnte4n255o" path="res://Scripts/SebratPravitko.cs" id="6_kdje2"]
 [ext_resource type="Script" uid="uid://dv2mr4tyrlxp3" path="res://Scripts/TlackaSeSvetlem.cs" id="7_4uh16"]
 [ext_resource type="Script" uid="uid://bm1m4h7r7twib" path="res://Scripts/Umyvadlo.cs" id="8_kdje2"]
+[ext_resource type="Texture2D" uid="uid://h6e3wbhh45rv" path="res://Textures/Border.svg" id="9_4uh16"]
+[ext_resource type="Texture2D" uid="uid://dge8i2p4ypuvn" path="res://Textures/BorderPressed.svg" id="11_o7l06"]
+[ext_resource type="Script" uid="uid://bgfs2pwvwx388" path="res://Scripts/SebratMic.cs" id="11_olvpm"]
+[ext_resource type="Script" uid="uid://ghmleyqvwfsr" path="res://Scripts/Slot1.cs" id="12_o7l06"]
+[ext_resource type="Script" uid="uid://hmoabsm5wvjx" path="res://Scripts/InventoryUI.cs" id="12_olvpm"]
 
 [node name="Node" type="Node" unique_id=1993851222]
-script = ExtResource("5_lxq7o")
+script = ExtResource("1_ucp0a")
+metadata/_edit_horizontal_guides_ = [150.0, 5.0, 285.0, 106.0]
+metadata/_edit_vertical_guides_ = [179.0, 38.0, 1628.0]
 
 [node name="Room_1" type="Sprite2D" parent="." unique_id=138993597]
 position = Vector2(960, 540)
@@ -25,7 +34,13 @@ position = Vector2(520, 628)
 scale = Vector2(0.89599997, 0.88888854)
 texture = ExtResource("3_minv7")
 
+[node name="BasketbalovýMíč" type="Sprite2D" parent="." unique_id=511248187]
+visible = false
+position = Vector2(796, 660)
+texture = ExtResource("5_3w57h")
+
 [node name="Controls" type="Control" parent="." unique_id=2131209454]
+modulate = Color(1, 1, 1, 0)
 layout_mode = 3
 anchors_preset = 0
 offset_left = -2.0
@@ -59,7 +74,7 @@ layout_mode = 0
 offset_left = 1659.0
 offset_top = 357.0
 offset_right = 1782.0
-offset_bottom = 936.0
+offset_bottom = 913.0
 text = "Zkusit otevřít
 dveře"
 script = ExtResource("5_lxq7o")
@@ -67,10 +82,10 @@ script = ExtResource("5_lxq7o")
 [node name="PodivatSeZaTabuli" type="Button" parent="Controls" unique_id=761607668]
 modulate = Color(1, 1, 1, 0)
 layout_mode = 0
-offset_left = 1216.0
-offset_top = 371.0
-offset_right = 1331.0
-offset_bottom = 451.0
+offset_left = 1231.0
+offset_top = 368.0
+offset_right = 1346.0
+offset_bottom = 448.0
 text = "podívat se
 za tabuli"
 script = ExtResource("6_j3utp")
@@ -134,6 +149,162 @@ offset_right = 0.33496094
 offset_bottom = -1.3500366
 script = ExtResource("8_kdje2")
 
+[node name="SebratMic" type="Button" parent="Controls" unique_id=1695592787]
+layout_mode = 0
+offset_left = 759.0
+offset_top = 620.0
+offset_right = 839.0
+offset_bottom = 693.0
+script = ExtResource("11_olvpm")
+
+[node name="InventoryUI" type="Panel" parent="Controls" unique_id=1627578203]
+top_level = true
+layout_mode = 0
+offset_left = 391.0
+offset_top = 85.0
+offset_right = 1791.0
+offset_bottom = 711.0
+script = ExtResource("12_olvpm")
+
+[node name="slot8 border" type="TextureButton" parent="Controls/InventoryUI" unique_id=833772781]
+layout_mode = 0
+offset_left = 1217.0
+offset_top = 16.0
+offset_right = 1377.0
+offset_bottom = 176.0
+texture_normal = ExtResource("9_4uh16")
+stretch_mode = 0
+
+[node name="slot8" type="TextureButton" parent="Controls/InventoryUI/slot8 border" unique_id=93865964]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 19.0
+offset_right = 141.0
+offset_bottom = 143.0
+stretch_mode = 0
+
+[node name="slot7 border" type="TextureButton" parent="Controls/InventoryUI" unique_id=1285949015]
+layout_mode = 0
+offset_left = 1047.0
+offset_top = 16.0
+offset_right = 1207.0
+offset_bottom = 176.0
+texture_normal = ExtResource("9_4uh16")
+stretch_mode = 0
+
+[node name="slot7" type="TextureButton" parent="Controls/InventoryUI/slot7 border" unique_id=1268600233]
+layout_mode = 0
+offset_left = 19.0
+offset_top = 18.0
+offset_right = 142.0
+offset_bottom = 141.0
+stretch_mode = 0
+
+[node name="slot6 border" type="TextureButton" parent="Controls/InventoryUI" unique_id=1069446322]
+layout_mode = 0
+offset_left = 878.0
+offset_top = 16.0
+offset_right = 1038.0
+offset_bottom = 176.0
+texture_normal = ExtResource("9_4uh16")
+stretch_mode = 0
+
+[node name="slot6" type="TextureButton" parent="Controls/InventoryUI/slot6 border" unique_id=1053001116]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 18.0
+offset_right = 143.0
+offset_bottom = 143.0
+stretch_mode = 0
+
+[node name="slot5 border" type="TextureButton" parent="Controls/InventoryUI" unique_id=1316512875]
+layout_mode = 0
+offset_left = 708.0
+offset_top = 16.0
+offset_right = 868.0
+offset_bottom = 176.0
+texture_normal = ExtResource("9_4uh16")
+stretch_mode = 0
+
+[node name="slot5" type="TextureButton" parent="Controls/InventoryUI/slot5 border" unique_id=277048129]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 19.0
+offset_right = 142.0
+offset_bottom = 143.0
+stretch_mode = 0
+
+[node name="slot4 border" type="TextureButton" parent="Controls/InventoryUI" unique_id=1208159117]
+layout_mode = 0
+offset_left = 536.0
+offset_top = 16.0
+offset_right = 696.0
+offset_bottom = 176.0
+texture_normal = ExtResource("9_4uh16")
+stretch_mode = 0
+
+[node name="slot4" type="TextureButton" parent="Controls/InventoryUI/slot4 border" unique_id=824414230]
+layout_mode = 0
+offset_left = 19.0
+offset_top = 17.0
+offset_right = 142.0
+offset_bottom = 143.0
+stretch_mode = 0
+
+[node name="slot3 border" type="TextureButton" parent="Controls/InventoryUI" unique_id=1703411005]
+layout_mode = 0
+offset_left = 366.0
+offset_top = 16.0
+offset_right = 526.0
+offset_bottom = 176.0
+texture_normal = ExtResource("9_4uh16")
+stretch_mode = 0
+
+[node name="slot3" type="TextureButton" parent="Controls/InventoryUI/slot3 border" unique_id=210538050]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 17.0
+offset_right = 142.0
+offset_bottom = 142.0
+stretch_mode = 0
+
+[node name="slot2 border" type="TextureButton" parent="Controls/InventoryUI" unique_id=791250608]
+layout_mode = 0
+offset_left = 197.0
+offset_top = 16.0
+offset_right = 357.0
+offset_bottom = 176.0
+texture_normal = ExtResource("9_4uh16")
+stretch_mode = 0
+
+[node name="slot2" type="TextureButton" parent="Controls/InventoryUI/slot2 border" unique_id=2041787706]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 17.0
+offset_right = 142.0
+offset_bottom = 141.0
+stretch_mode = 0
+
+[node name="slot1 border" type="TextureButton" parent="Controls/InventoryUI" unique_id=1383363846]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 16.0
+offset_right = 187.0
+offset_bottom = 176.0
+texture_normal = ExtResource("9_4uh16")
+texture_pressed = ExtResource("11_o7l06")
+stretch_mode = 0
+
+[node name="slot1" type="TextureButton" parent="Controls/InventoryUI/slot1 border" unique_id=2063178292]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 18.0
+offset_right = 142.0
+offset_bottom = 141.0
+toggle_mode = true
+stretch_mode = 0
+script = ExtResource("12_o7l06")
+
 [connection signal="pressed" from="Controls/ZamceneDvere" to="Controls/ZamceneDvere" method="_on_zamknute_dvere"]
 [connection signal="pressed" from="Controls/PodivatSeZaTabuli" to="Controls/CanvasLayer/Panel/Label" method="_on_podivat_se_za_tabuli_pressed"]
 [connection signal="pressed" from="Controls/SebratPravitko" to="Controls" method="_on_sebrat_pravitko_pressed"]
@@ -141,3 +312,4 @@ script = ExtResource("8_kdje2")
 [connection signal="pressed" from="Controls/PodivatSeZOkna" to="Controls" method="_on_podivat_se_z_okna_pressed"]
 [connection signal="pressed" from="Controls/ZhasnoutSvetlo" to="Controls" method="_on_zhasnout_svetlo_pressed"]
 [connection signal="pressed" from="Controls/Umyvadlo" to="." method="_on_umyvadlo_pressed"]
+[connection signal="pressed" from="Controls/SebratMic" to="." method="_on_sebrat_mic_pressed"]
