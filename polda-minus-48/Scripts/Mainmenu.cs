@@ -23,7 +23,7 @@ public partial class Mainmenu : Control
 	private void _on_button_3_pressed()
 	{
 		GetTree().Quit();
-		
 	}
-		
+	
+	
 	}

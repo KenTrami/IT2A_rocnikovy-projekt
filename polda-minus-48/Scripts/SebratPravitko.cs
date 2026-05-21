@@ -6,6 +6,7 @@ public partial class SebratPravitko : Button
 	// Called when the node enters the scene tree for the first time.
 	private Label label;
 	public Sprite2D pravitko;
+	
 	private Label text;
 	public Sprite2D pravitkoItem;
 	
@@ -16,7 +17,7 @@ public partial class SebratPravitko : Button
 		label=GetNode<Label>("/root/Node/Controls/CanvasLayer/Panel/Label");
 		Pressed += _on_sebrat_pravitko_pressed;
 	}
-
+	
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)
 	{

@@ -10,11 +10,24 @@
 [ext_resource type="Script" uid="uid://c86rnte4n255o" path="res://Scripts/SebratPravitko.cs" id="6_kdje2"]
 [ext_resource type="Script" uid="uid://dv2mr4tyrlxp3" path="res://Scripts/TlackaSeSvetlem.cs" id="7_4uh16"]
 [ext_resource type="Script" uid="uid://bm1m4h7r7twib" path="res://Scripts/Umyvadlo.cs" id="8_kdje2"]
-[ext_resource type="Texture2D" uid="uid://h6e3wbhh45rv" path="res://Textures/Border.svg" id="9_4uh16"]
-[ext_resource type="Texture2D" uid="uid://dge8i2p4ypuvn" path="res://Textures/BorderPressed.svg" id="11_o7l06"]
 [ext_resource type="Script" uid="uid://bgfs2pwvwx388" path="res://Scripts/SebratMic.cs" id="11_olvpm"]
-[ext_resource type="Script" uid="uid://ghmleyqvwfsr" path="res://Scripts/Slot1.cs" id="12_o7l06"]
-[ext_resource type="Script" uid="uid://hmoabsm5wvjx" path="res://Scripts/InventoryUI.cs" id="12_olvpm"]
+
+[sub_resource type="Theme" id="Theme_mp7kg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3w57h"]
+bg_color = Color(0.19600001, 0.2, 0.19759999, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+corner_detail = 13
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_olvpm"]
+bg_color = Color(0.19607843, 0.2, 0.19607843, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
 
 [node name="Node" type="Node" unique_id=1993851222]
 script = ExtResource("1_ucp0a")
@@ -158,152 +171,87 @@ offset_bottom = 693.0
 script = ExtResource("11_olvpm")
 
 [node name="InventoryUI" type="Panel" parent="Controls" unique_id=1627578203]
+visible = false
 top_level = true
 layout_mode = 0
 offset_left = 391.0
 offset_top = 85.0
 offset_right = 1791.0
 offset_bottom = 711.0
-script = ExtResource("12_olvpm")
 
-[node name="slot8 border" type="TextureButton" parent="Controls/InventoryUI" unique_id=833772781]
-layout_mode = 0
-offset_left = 1217.0
-offset_top = 16.0
-offset_right = 1377.0
-offset_bottom = 176.0
-texture_normal = ExtResource("9_4uh16")
-stretch_mode = 0
+[node name="Label" type="Label" parent="Controls/InventoryUI" unique_id=1822432187]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -129.5
+offset_right = 129.5
+offset_bottom = 171.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 60
+text = "Inventář"
 
-[node name="slot8" type="TextureButton" parent="Controls/InventoryUI/slot8 border" unique_id=93865964]
-layout_mode = 0
-offset_left = 18.0
-offset_top = 19.0
-offset_right = 141.0
-offset_bottom = 143.0
-stretch_mode = 0
+[node name="PozastavitHru" type="Panel" parent="Controls" unique_id=1548573652]
+visible = false
+top_level = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -300.0
+offset_top = -277.0
+offset_right = 310.0
+offset_bottom = 162.0
+grow_horizontal = 2
+grow_vertical = 2
 
-[node name="slot7 border" type="TextureButton" parent="Controls/InventoryUI" unique_id=1285949015]
-layout_mode = 0
-offset_left = 1047.0
-offset_top = 16.0
-offset_right = 1207.0
-offset_bottom = 176.0
-texture_normal = ExtResource("9_4uh16")
-stretch_mode = 0
+[node name="VBoxContainer2" type="VBoxContainer" parent="Controls/PozastavitHru" unique_id=1519664623]
+layout_direction = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -249.0
+offset_top = -128.25
+offset_right = 238.5
+offset_bottom = 131.75
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 4
 
-[node name="slot7" type="TextureButton" parent="Controls/InventoryUI/slot7 border" unique_id=1268600233]
-layout_mode = 0
-offset_left = 19.0
-offset_top = 18.0
-offset_right = 142.0
-offset_bottom = 141.0
-stretch_mode = 0
+[node name="Label" type="Label" parent="Controls/PozastavitHru/VBoxContainer2" unique_id=18671672]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 40
+text = "Pozastavit Hru"
 
-[node name="slot6 border" type="TextureButton" parent="Controls/InventoryUI" unique_id=1069446322]
-layout_mode = 0
-offset_left = 878.0
-offset_top = 16.0
-offset_right = 1038.0
-offset_bottom = 176.0
-texture_normal = ExtResource("9_4uh16")
-stretch_mode = 0
+[node name="Pokracovat" type="Button" parent="Controls/PozastavitHru/VBoxContainer2" unique_id=1992791218]
+layout_mode = 2
+size_flags_vertical = 3
+theme = SubResource("Theme_mp7kg")
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_3w57h")
+text = "Pokračovat"
+script = ExtResource("5_lxq7o")
 
-[node name="slot6" type="TextureButton" parent="Controls/InventoryUI/slot6 border" unique_id=1053001116]
-layout_mode = 0
-offset_left = 17.0
-offset_top = 18.0
-offset_right = 143.0
-offset_bottom = 143.0
-stretch_mode = 0
+[node name="Button2" type="Button" parent="Controls/PozastavitHru/VBoxContainer2" unique_id=2022883774]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_olvpm")
+text = "Nastavení"
 
-[node name="slot5 border" type="TextureButton" parent="Controls/InventoryUI" unique_id=1316512875]
-layout_mode = 0
-offset_left = 708.0
-offset_top = 16.0
-offset_right = 868.0
-offset_bottom = 176.0
-texture_normal = ExtResource("9_4uh16")
-stretch_mode = 0
-
-[node name="slot5" type="TextureButton" parent="Controls/InventoryUI/slot5 border" unique_id=277048129]
-layout_mode = 0
-offset_left = 20.0
-offset_top = 19.0
-offset_right = 142.0
-offset_bottom = 143.0
-stretch_mode = 0
-
-[node name="slot4 border" type="TextureButton" parent="Controls/InventoryUI" unique_id=1208159117]
-layout_mode = 0
-offset_left = 536.0
-offset_top = 16.0
-offset_right = 696.0
-offset_bottom = 176.0
-texture_normal = ExtResource("9_4uh16")
-stretch_mode = 0
-
-[node name="slot4" type="TextureButton" parent="Controls/InventoryUI/slot4 border" unique_id=824414230]
-layout_mode = 0
-offset_left = 19.0
-offset_top = 17.0
-offset_right = 142.0
-offset_bottom = 143.0
-stretch_mode = 0
-
-[node name="slot3 border" type="TextureButton" parent="Controls/InventoryUI" unique_id=1703411005]
-layout_mode = 0
-offset_left = 366.0
-offset_top = 16.0
-offset_right = 526.0
-offset_bottom = 176.0
-texture_normal = ExtResource("9_4uh16")
-stretch_mode = 0
-
-[node name="slot3" type="TextureButton" parent="Controls/InventoryUI/slot3 border" unique_id=210538050]
-layout_mode = 0
-offset_left = 18.0
-offset_top = 17.0
-offset_right = 142.0
-offset_bottom = 142.0
-stretch_mode = 0
-
-[node name="slot2 border" type="TextureButton" parent="Controls/InventoryUI" unique_id=791250608]
-layout_mode = 0
-offset_left = 197.0
-offset_top = 16.0
-offset_right = 357.0
-offset_bottom = 176.0
-texture_normal = ExtResource("9_4uh16")
-stretch_mode = 0
-
-[node name="slot2" type="TextureButton" parent="Controls/InventoryUI/slot2 border" unique_id=2041787706]
-layout_mode = 0
-offset_left = 18.0
-offset_top = 17.0
-offset_right = 142.0
-offset_bottom = 141.0
-stretch_mode = 0
-
-[node name="slot1 border" type="TextureButton" parent="Controls/InventoryUI" unique_id=1383363846]
-layout_mode = 0
-offset_left = 27.0
-offset_top = 16.0
-offset_right = 187.0
-offset_bottom = 176.0
-texture_normal = ExtResource("9_4uh16")
-texture_pressed = ExtResource("11_o7l06")
-stretch_mode = 0
-
-[node name="slot1" type="TextureButton" parent="Controls/InventoryUI/slot1 border" unique_id=2063178292]
-layout_mode = 0
-offset_left = 17.0
-offset_top = 18.0
-offset_right = 142.0
-offset_bottom = 141.0
-toggle_mode = true
-stretch_mode = 0
-script = ExtResource("12_o7l06")
+[node name="ZpetDoMenu" type="Button" parent="Controls/PozastavitHru/VBoxContainer2" unique_id=1238199691]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_olvpm")
+text = "Zpět do hlavního menu"
+script = ExtResource("5_lxq7o")
 
 [connection signal="pressed" from="Controls/ZamceneDvere" to="Controls/ZamceneDvere" method="_on_zamknute_dvere"]
 [connection signal="pressed" from="Controls/PodivatSeZaTabuli" to="Controls/CanvasLayer/Panel/Label" method="_on_podivat_se_za_tabuli_pressed"]
@@ -313,3 +261,5 @@ script = ExtResource("12_o7l06")
 [connection signal="pressed" from="Controls/ZhasnoutSvetlo" to="Controls" method="_on_zhasnout_svetlo_pressed"]
 [connection signal="pressed" from="Controls/Umyvadlo" to="." method="_on_umyvadlo_pressed"]
 [connection signal="pressed" from="Controls/SebratMic" to="." method="_on_sebrat_mic_pressed"]
+[connection signal="pressed" from="Controls/PozastavitHru/VBoxContainer2/Pokracovat" to="." method="_on_pokracovat_pressed"]
+[connection signal="pressed" from="Controls/PozastavitHru/VBoxContainer2/ZpetDoMenu" to="." method="_on_zpet_do_menu_pressed"]

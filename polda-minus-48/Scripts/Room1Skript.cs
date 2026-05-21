@@ -25,6 +25,13 @@ private void _on_zamknute_dvere()
 	}
 	
 	
-	
+	private void _on_pokracovat_pressed()
+	{
+		GetNode<Panel>("Controls/PozastavitHru").Hide();
+	}
+	private void _on_zpet_do_menu_pressed()
+	{
+		GetTree().ChangeSceneToFile("res://Scenes/MainMenu.tscn");
+	}
 
 }
