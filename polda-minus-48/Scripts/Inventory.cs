@@ -4,13 +4,13 @@ using System.Collections.Generic;
 
 public static class Inventory
 {
-    public static List<Sprite2D> Inventar =new List<Sprite2D>();
+    public static List<string> Inventar =new List<string>();
 
-    public static bool ItemCheck(Sprite2D item)
+    public static bool ItemCheck(string item)
     {
        return Inventar.Contains(item);
     }
-    public static void ItemGet(Sprite2D item)
+    public static void ItemGet(string item)
     {
         Inventar.Add(item);
     }

@@ -7,7 +7,7 @@
    viewBox="0 0 1920 1080"
    version="1.1"
    id="svg1"
-   sodipodi:docname="Room1.svg"
+   sodipodi:docname="Room1 s rozbitou zarivkou.svg"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
    inkscape:export-filename="Room1.png"
    inkscape:export-xdpi="96"
@@ -25,9 +25,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="4"
-     inkscape:cx="1004.75"
-     inkscape:cy="155.125"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="630.73925"
+     inkscape:cy="329.51176"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -313,11 +313,6 @@
              d="m 648.56842,68.422414 v 48.576396 l 285.84323,0.19375 V 67.701576 Z"
              id="path3"
              transform="translate(-47.460938)" />
-          <path
-             id="rect23"
-             style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.01365;stroke-dasharray:none;stroke-opacity:1"
-             d="m 411.46927,68.853516 v 23.376953 h 23.0332 V 68.853516 Z m 23.63281,0 v 23.376953 h 23.03321 V 68.853516 Z m 23.82813,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.63281,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.0957,0 v 23.376953 h 23.03321 V 68.853516 Z m 23.63282,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.82812,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.63281,0 v 23.376953 h 23.03321 V 68.853516 Z m 23.92383,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.63281,0 v 23.376953 h 23.03321 V 68.853516 Z m 24.42774,0 v 23.376953 h 23.0332 V 68.853516 Z m 23.63281,0 v 23.376953 h 23.0332 V 68.853516 Z M 411.56693,93.023438 v 23.376952 h 23.0332 V 93.023438 Z m 23.63281,0 v 23.376952 h 23.0332 V 93.023438 Z m 23.82812,0 v 23.376952 h 23.03321 V 93.023438 Z m 23.63282,0 v 23.376952 h 23.0332 V 93.023438 Z m 23.0957,0 v 23.376952 h 23.0332 V 93.023438 Z m 23.63281,0 v 23.376952 h 23.0332 V 93.023438 Z m 23.82813,0 v 23.376952 h 23.0332 V 93.023438 Z m 23.63281,0 v 23.376952 h 23.0332 V 93.023438 Z m 23.92383,0 v 23.376952 h 23.0332 V 93.023438 Z m 23.63281,0 v 23.376952 h 23.0332 V 93.023438 Z m 24.42773,0 v 23.376952 h 23.03321 V 93.023438 Z m 23.63282,0 v 23.376952 h 23.0332 V 93.023438 Z"
-             transform="translate(189.80653)" />
         </g>
         <path
            style="fill:#d6cfac;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"

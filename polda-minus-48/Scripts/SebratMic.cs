@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 
 public partial class SebratMic : Button
 {
-	public Sprite2D mic;
+	public static string mic;
 	private Label label;
 public override void _Ready()
 	{
@@ -19,7 +19,7 @@ public override void _Ready()
 	public override void _Process(double delta)
 	{
 	}
-	bool MicNaZemi=true;
+	public static bool MicNaZemi=true;
 	private void _on_sebrat_mic_pressed()
 	{
 		if(!MicNaZemi==false){

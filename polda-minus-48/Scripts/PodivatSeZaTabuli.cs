@@ -3,7 +3,7 @@ using System;
 
 public partial class PodivatSeZaTabuli : Button
 {
-	public Sprite2D pravitko;
+	public static string pravitko;
 	private Label label;
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()

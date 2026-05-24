@@ -9,7 +9,7 @@ public partial class Main : Node
 	public override void _Ready()
 	{
 		inventoryUI=GetNode<Panel>("Controls/InventoryUI");
-		pozastavitHru=GetNode<Panel>("Controls/PozastavitHru");
+		
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -19,10 +19,7 @@ public partial class Main : Node
 		{
 			inventoryUI.Visible = !inventoryUI.Visible;
 		}
-		if (@event.IsActionPressed("stop"))
-		{
-			pozastavitHru.Visible=!pozastavitHru.Visible;
-		}
+		
 	}
 
 	

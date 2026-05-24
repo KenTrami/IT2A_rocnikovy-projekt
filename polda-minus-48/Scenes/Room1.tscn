@@ -1,38 +1,30 @@
 [gd_scene format=3 uid="uid://bh5swbn7r1jca"]
 
 [ext_resource type="Script" uid="uid://cvl3ik6snd38o" path="res://Scripts/Main.cs" id="1_ucp0a"]
+[ext_resource type="Texture2D" uid="uid://dpi3xb8d2kh4r" path="res://Textures/Room1 s rozbitou zarivkou.svg" id="2_3w57h"]
 [ext_resource type="Texture2D" uid="uid://hqnrhrxgnls5" path="res://Textures/Room1.svg" id="2_lxq7o"]
 [ext_resource type="Texture2D" uid="uid://mrfrn741k6jk" path="res://Textures/Room1-rosviceno.svg" id="2_minv7"]
 [ext_resource type="Texture2D" uid="uid://ic8nyisf77h7" path="res://Textures/Pravítko.svg" id="3_minv7"]
 [ext_resource type="Texture2D" uid="uid://3uq8mesvbxa6" path="res://Textures/Basketbalový míč.svg" id="5_3w57h"]
 [ext_resource type="Script" uid="uid://dif51bb3g7jrh" path="res://Scripts/Room1Skript.cs" id="5_lxq7o"]
+[ext_resource type="Texture2D" uid="uid://bs88q8cw4ejr6" path="res://Textures/klíč.svg" id="5_o7l06"]
+[ext_resource type="Texture2D" uid="uid://de5emisdh7e67" path="res://Textures/MřížkaZeZářivky.svg" id="5_olvpm"]
 [ext_resource type="Script" uid="uid://wnwq71ypequn" path="res://Scripts/PodivatSeZaTabuli.cs" id="6_j3utp"]
 [ext_resource type="Script" uid="uid://c86rnte4n255o" path="res://Scripts/SebratPravitko.cs" id="6_kdje2"]
 [ext_resource type="Script" uid="uid://dv2mr4tyrlxp3" path="res://Scripts/TlackaSeSvetlem.cs" id="7_4uh16"]
 [ext_resource type="Script" uid="uid://bm1m4h7r7twib" path="res://Scripts/Umyvadlo.cs" id="8_kdje2"]
 [ext_resource type="Script" uid="uid://bgfs2pwvwx388" path="res://Scripts/SebratMic.cs" id="11_olvpm"]
-
-[sub_resource type="Theme" id="Theme_mp7kg"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3w57h"]
-bg_color = Color(0.19600001, 0.2, 0.19759999, 1)
-corner_radius_top_left = 4
-corner_radius_top_right = 4
-corner_radius_bottom_right = 4
-corner_radius_bottom_left = 4
-corner_detail = 13
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_olvpm"]
-bg_color = Color(0.19607843, 0.2, 0.19607843, 1)
-corner_radius_top_left = 4
-corner_radius_top_right = 4
-corner_radius_bottom_right = 4
-corner_radius_bottom_left = 4
+[ext_resource type="Script" uid="uid://c5xjytfja7ihl" path="res://Scripts/Lih.cs" id="11_xqepp"]
+[ext_resource type="Texture2D" uid="uid://d4d8okl5jckxu" path="res://Textures/Líh.svg" id="15_olvpm"]
 
 [node name="Node" type="Node" unique_id=1993851222]
 script = ExtResource("1_ucp0a")
 metadata/_edit_horizontal_guides_ = [150.0, 5.0, 285.0, 106.0]
 metadata/_edit_vertical_guides_ = [179.0, 38.0, 1628.0]
+
+[node name="Room1SRozbitouZarivkou" type="Sprite2D" parent="." unique_id=1270969226]
+position = Vector2(960, 540)
+texture = ExtResource("2_3w57h")
 
 [node name="Room_1" type="Sprite2D" parent="." unique_id=138993597]
 position = Vector2(960, 540)
@@ -42,10 +34,28 @@ texture = ExtResource("2_lxq7o")
 position = Vector2(960, 540)
 texture = ExtResource("2_minv7")
 
+[node name="Lih" type="Sprite2D" parent="." unique_id=491880385]
+visible = false
+position = Vector2(1097.5, 519)
+scale = Vector2(0.48684055, 0.49757278)
+texture = ExtResource("15_olvpm")
+
+[node name="MřížkaZeZářivky" type="Sprite2D" parent="." unique_id=1373836363]
+visible = false
+position = Vector2(1019, 666)
+scale = Vector2(0.24827294, 0.24440297)
+texture = ExtResource("5_olvpm")
+
 [node name="Pravítko" type="Sprite2D" parent="." unique_id=1985299025]
 position = Vector2(520, 628)
 scale = Vector2(0.89599997, 0.88888854)
 texture = ExtResource("3_minv7")
+
+[node name="Klic" type="Sprite2D" parent="." unique_id=515438341]
+visible = false
+position = Vector2(1030, 108)
+scale = Vector2(0.5, 0.4848485)
+texture = ExtResource("5_o7l06")
 
 [node name="BasketbalovýMíč" type="Sprite2D" parent="." unique_id=511248187]
 visible = false
@@ -56,9 +66,9 @@ texture = ExtResource("5_3w57h")
 modulate = Color(1, 1, 1, 0)
 layout_mode = 3
 anchors_preset = 0
-offset_left = -2.0
+offset_left = -3.0
 offset_top = 6.0
-offset_right = 1913.0
+offset_right = 1912.0
 offset_bottom = 1076.0
 script = ExtResource("5_lxq7o")
 
@@ -80,6 +90,14 @@ grow_vertical = 2
 theme_override_font_sizes/font_size = 34
 horizontal_alignment = 1
 autowrap_mode = 3
+
+[node name="Lih" type="Button" parent="Controls" unique_id=262687944]
+layout_mode = 0
+offset_left = 1041.0
+offset_top = 440.0
+offset_right = 1151.0
+offset_bottom = 591.0
+script = ExtResource("11_xqepp")
 
 [node name="ZamceneDvere" type="Button" parent="Controls" unique_id=1354330770]
 modulate = Color(1, 1, 1, 0)
@@ -116,10 +134,10 @@ script = ExtResource("6_kdje2")
 [node name="PodivneSviticiZarivka" type="Button" parent="Controls" unique_id=976063721]
 modulate = Color(1, 1, 1, 0)
 layout_mode = 0
-offset_left = 885.0
-offset_top = 61.0
-offset_right = 1185.0
-offset_bottom = 122.0
+offset_left = 870.0
+offset_top = 34.0
+offset_right = 1226.0
+offset_bottom = 141.0
 text = "\"Podívná zářika\"
 obsahující (ulepené klíče)"
 script = ExtResource("7_4uh16")
@@ -191,68 +209,7 @@ grow_horizontal = 2
 theme_override_font_sizes/font_size = 60
 text = "Inventář"
 
-[node name="PozastavitHru" type="Panel" parent="Controls" unique_id=1548573652]
-visible = false
-top_level = true
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -300.0
-offset_top = -277.0
-offset_right = 310.0
-offset_bottom = 162.0
-grow_horizontal = 2
-grow_vertical = 2
-
-[node name="VBoxContainer2" type="VBoxContainer" parent="Controls/PozastavitHru" unique_id=1519664623]
-layout_direction = 1
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -249.0
-offset_top = -128.25
-offset_right = 238.5
-offset_bottom = 131.75
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_constants/separation = 4
-
-[node name="Label" type="Label" parent="Controls/PozastavitHru/VBoxContainer2" unique_id=18671672]
-layout_mode = 2
-size_flags_horizontal = 4
-theme_override_font_sizes/font_size = 40
-text = "Pozastavit Hru"
-
-[node name="Pokracovat" type="Button" parent="Controls/PozastavitHru/VBoxContainer2" unique_id=1992791218]
-layout_mode = 2
-size_flags_vertical = 3
-theme = SubResource("Theme_mp7kg")
-theme_override_font_sizes/font_size = 30
-theme_override_styles/normal = SubResource("StyleBoxFlat_3w57h")
-text = "Pokračovat"
-script = ExtResource("5_lxq7o")
-
-[node name="Button2" type="Button" parent="Controls/PozastavitHru/VBoxContainer2" unique_id=2022883774]
-layout_mode = 2
-size_flags_vertical = 3
-theme_override_font_sizes/font_size = 30
-theme_override_styles/normal = SubResource("StyleBoxFlat_olvpm")
-text = "Nastavení"
-
-[node name="ZpetDoMenu" type="Button" parent="Controls/PozastavitHru/VBoxContainer2" unique_id=1238199691]
-layout_mode = 2
-size_flags_vertical = 3
-theme_override_font_sizes/font_size = 30
-theme_override_styles/normal = SubResource("StyleBoxFlat_olvpm")
-text = "Zpět do hlavního menu"
-script = ExtResource("5_lxq7o")
-
+[connection signal="pressed" from="Controls/Lih" to="." method="_on_lih_pressed"]
 [connection signal="pressed" from="Controls/ZamceneDvere" to="Controls/ZamceneDvere" method="_on_zamknute_dvere"]
 [connection signal="pressed" from="Controls/PodivatSeZaTabuli" to="Controls/CanvasLayer/Panel/Label" method="_on_podivat_se_za_tabuli_pressed"]
 [connection signal="pressed" from="Controls/SebratPravitko" to="Controls" method="_on_sebrat_pravitko_pressed"]
@@ -261,5 +218,3 @@ script = ExtResource("5_lxq7o")
 [connection signal="pressed" from="Controls/ZhasnoutSvetlo" to="Controls" method="_on_zhasnout_svetlo_pressed"]
 [connection signal="pressed" from="Controls/Umyvadlo" to="." method="_on_umyvadlo_pressed"]
 [connection signal="pressed" from="Controls/SebratMic" to="." method="_on_sebrat_mic_pressed"]
-[connection signal="pressed" from="Controls/PozastavitHru/VBoxContainer2/Pokracovat" to="." method="_on_pokracovat_pressed"]
-[connection signal="pressed" from="Controls/PozastavitHru/VBoxContainer2/ZpetDoMenu" to="." method="_on_zpet_do_menu_pressed"]

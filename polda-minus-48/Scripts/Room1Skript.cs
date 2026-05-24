@@ -9,6 +9,7 @@ public partial class Room1Skript : Node
 	public override void _Ready()
 	{
 		label= GetNode<Label>("/root/Node/Controls/CanvasLayer/Panel/Label");
+		
 	//Když dědím z Node nemusím mít: Pressed += _nazevtlacitka
 	//Když dědím z Button musím mít: Pressed += _nazevtlacitka
 		
@@ -22,16 +23,6 @@ public partial class Room1Skript : Node
 private void _on_zamknute_dvere()
 	{
 		label.Text="Sakra, je zamčeno!";
-	}
-	
-	
-	private void _on_pokracovat_pressed()
-	{
-		GetNode<Panel>("Controls/PozastavitHru").Hide();
-	}
-	private void _on_zpet_do_menu_pressed()
-	{
-		GetTree().ChangeSceneToFile("res://Scenes/MainMenu.tscn");
 	}
 
 }

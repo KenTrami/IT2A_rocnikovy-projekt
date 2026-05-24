@@ -1,8 +1,12 @@
 using Godot;
 using System;
+using System.Formats.Tar;
 
 public partial class TlackaSeSvetlem : Button
 {
+	
+	
+	public string mic;
 	private Label label;
 	private Sprite2D sprite;
 	// Called when the node enters the scene tree for the first time.
@@ -19,6 +23,7 @@ public partial class TlackaSeSvetlem : Button
 		ZhasnoutSvetlo.Pressed +=  _on_zhasnout_svetlo_pressed;
 		PodivneSviticiZarivka.Pressed += _on_podivne_svitici_zarivka_pressed;
 		PodivatSeZOkna.Pressed += _on_podivat_se_z_okna_pressed;
+
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -28,10 +33,11 @@ public partial class TlackaSeSvetlem : Button
 	bool zhasnuto=true;
 	private void _on_zhasnout_svetlo_pressed()
 	{
-		
 		if (!zhasnuto == false)
 		{
-			GetNode<Sprite2D>("/root/Node/Room1_Rosviceno").Hide();	//.. - zkratka pro node
+			GetNode<Sprite2D>("/root/Node/Klic").Show();
+			GetNode<Sprite2D>("/root/Node/Room1_Rosviceno").Hide();
+			GetNode<Sprite2D>("/root/Node/Lih").Show();
 			label.Text="Konečne ty zářivky nesvítí jak stroboskop.";
 			zhasnuto=false;
 		}
@@ -45,11 +51,20 @@ public partial class TlackaSeSvetlem : Button
 	{
 		if (!zhasnuto == false)
 		{
-			label.Text="Ta zářivka je ňáká divná. Jak kdyby v ní něco bylo.";	
+			label.Text="Ta zářivka je ňáká divná. Jak kdyby v ní něco bylo.";
+		}
+		else if (Inventory.ItemCheck(mic)==!false)
+		{
+			label.Text="Trefa! Zářivka a Klíč spadly na zem. Stejně už potřebovala vyměnit.";
+			GetNode<Sprite2D>("/root/Node/Klic").Hide();
+			GetNode<Sprite2D>("/root/Node/Room_1").Hide();
+			GetNode<Sprite2D>("/root/Node/MřížkaZeZářivky").Show();
+			
 		}
 		else
 		{
-			label.Text="Hele Klíče!. Musím se pro ně nějak dostat.";
+			label.Text="Hele Klíče! Musím se pro ně nějak dostat.";
+			
 		}
 		
 	}

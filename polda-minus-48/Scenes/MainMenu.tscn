@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cjkjno5pkyjxc"]
 
 [ext_resource type="Texture2D" uid="uid://cgv65qi36serw" path="res://Textures/MENU.png" id="1_853f1"]
-[ext_resource type="Script" uid="uid://vnavpv84ryrl" path="res://Scripts/Mainmenu.cs" id="2_853f1"]
+[ext_resource type="Script" uid="uid://dbe5lga1q76oo" path="res://Scripts/MainmenuSkript.cs" id="1_tt5f1"]
 
 [sub_resource type="Theme" id="Theme_k6fhs"]
 
@@ -37,7 +37,7 @@ offset_right = 7.0
 offset_bottom = 17.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("2_853f1")
+script = ExtResource("1_tt5f1")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Menu" unique_id=1179164828]
 layout_direction = 1
@@ -62,7 +62,7 @@ theme = SubResource("Theme_k6fhs")
 theme_override_font_sizes/font_size = 30
 theme_override_styles/normal = SubResource("StyleBoxFlat_g5xlr")
 text = "Hrát"
-script = ExtResource("2_853f1")
+script = ExtResource("1_tt5f1")
 
 [node name="Button2" type="Button" parent="Menu/VBoxContainer" unique_id=1929005733]
 layout_mode = 2
@@ -77,7 +77,7 @@ size_flags_vertical = 3
 theme_override_font_sizes/font_size = 30
 theme_override_styles/normal = SubResource("StyleBoxFlat_lupcn")
 text = "Konec"
-script = ExtResource("2_853f1")
+script = ExtResource("1_tt5f1")
 
 [node name="zvuky" type="Node" parent="." unique_id=446635144]
 
