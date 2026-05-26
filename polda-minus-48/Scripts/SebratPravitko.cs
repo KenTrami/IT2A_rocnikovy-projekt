@@ -5,7 +5,7 @@ public partial class SebratPravitko : Button
 {
 	// Called when the node enters the scene tree for the first time.
 	private Label label;
-	public static string pravitko;
+	public string pravitko;
 	
 	private Label text;
 	
@@ -27,7 +27,7 @@ public partial class SebratPravitko : Button
 		if(!PravitkoNaStole==false){
 		label.Text="Pravítko. Beru ho, může se hodit.";
 		GetNode<Sprite2D>("/root/Node/Pravítko").Hide(); //.. - zkratka pro node
-		Inventory.ItemGet(pravitko);
+		Inventory.Inventar.Add("pravitko");
 		PravitkoNaStole=false;
 		}
 		else

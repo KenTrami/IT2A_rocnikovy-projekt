@@ -25,9 +25,10 @@ public override void _Ready()
 		if(!MicNaZemi==false){
 		label.Text="A mám tě! Pojď k tatínkovi!";
 		GetNode<Sprite2D>("/root/Node/BasketbalovýMíč").Hide(); //.. - zkratka pro node
-		Inventory.ItemGet(mic);
+		Inventory.Inventar.Add("mic");
 		//Sprite2D pravitkoItem =GetNode<Sprite2D>("/root/Node/Pravítko");
 		MicNaZemi=false;
+		GetNode<Button>("/root/Node/Controls/PodivneSviticiZarivka").Hide();
 		}
 		else
 		{

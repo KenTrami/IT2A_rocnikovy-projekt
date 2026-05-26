@@ -12,14 +12,12 @@
 [ext_resource type="Script" uid="uid://wnwq71ypequn" path="res://Scripts/PodivatSeZaTabuli.cs" id="6_j3utp"]
 [ext_resource type="Script" uid="uid://c86rnte4n255o" path="res://Scripts/SebratPravitko.cs" id="6_kdje2"]
 [ext_resource type="Script" uid="uid://dv2mr4tyrlxp3" path="res://Scripts/TlackaSeSvetlem.cs" id="7_4uh16"]
-[ext_resource type="Script" uid="uid://bm1m4h7r7twib" path="res://Scripts/Umyvadlo.cs" id="8_kdje2"]
 [ext_resource type="Script" uid="uid://bgfs2pwvwx388" path="res://Scripts/SebratMic.cs" id="11_olvpm"]
-[ext_resource type="Script" uid="uid://c5xjytfja7ihl" path="res://Scripts/Lih.cs" id="11_xqepp"]
 [ext_resource type="Texture2D" uid="uid://d4d8okl5jckxu" path="res://Textures/Líh.svg" id="15_olvpm"]
 
 [node name="Node" type="Node" unique_id=1993851222]
 script = ExtResource("1_ucp0a")
-metadata/_edit_horizontal_guides_ = [150.0, 5.0, 285.0, 106.0]
+metadata/_edit_horizontal_guides_ = [150.0, 5.0, 285.0, 106.0, 40.0]
 metadata/_edit_vertical_guides_ = [179.0, 38.0, 1628.0]
 
 [node name="Room1SRozbitouZarivkou" type="Sprite2D" parent="." unique_id=1270969226]
@@ -66,10 +64,10 @@ texture = ExtResource("5_3w57h")
 modulate = Color(1, 1, 1, 0)
 layout_mode = 3
 anchors_preset = 0
-offset_left = -3.0
-offset_top = 6.0
-offset_right = 1912.0
-offset_bottom = 1076.0
+offset_left = 3.0
+offset_top = 8.0
+offset_right = 1918.0
+offset_bottom = 1078.0
 script = ExtResource("5_lxq7o")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="Controls" unique_id=2128863058]
@@ -97,7 +95,7 @@ offset_left = 1041.0
 offset_top = 440.0
 offset_right = 1151.0
 offset_bottom = 591.0
-script = ExtResource("11_xqepp")
+script = ExtResource("7_4uh16")
 
 [node name="ZamceneDvere" type="Button" parent="Controls" unique_id=1354330770]
 modulate = Color(1, 1, 1, 0)
@@ -108,7 +106,7 @@ offset_right = 1782.0
 offset_bottom = 913.0
 text = "Zkusit otevřít
 dveře"
-script = ExtResource("5_lxq7o")
+script = ExtResource("7_4uh16")
 
 [node name="PodivatSeZaTabuli" type="Button" parent="Controls" unique_id=761607668]
 modulate = Color(1, 1, 1, 0)
@@ -130,6 +128,17 @@ offset_right = 588.0
 offset_bottom = 666.0
 text = "Sebrat pravítko"
 script = ExtResource("6_kdje2")
+
+[node name="HoditMic" type="Button" parent="Controls" unique_id=893349256]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 870.0
+offset_top = 34.0
+offset_right = 1223.0
+offset_bottom = 136.0
+text = "\"Podívná zářika\"
+obsahující (ulepené klíče)"
+script = ExtResource("7_4uh16")
 
 [node name="PodivneSviticiZarivka" type="Button" parent="Controls" unique_id=976063721]
 modulate = Color(1, 1, 1, 0)
@@ -178,7 +187,7 @@ offset_left = -0.91516113
 offset_top = -0.54003906
 offset_right = 0.33496094
 offset_bottom = -1.3500366
-script = ExtResource("8_kdje2")
+script = ExtResource("7_4uh16")
 
 [node name="SebratMic" type="Button" parent="Controls" unique_id=1695592787]
 layout_mode = 0
@@ -210,9 +219,11 @@ theme_override_font_sizes/font_size = 60
 text = "Inventář"
 
 [connection signal="pressed" from="Controls/Lih" to="." method="_on_lih_pressed"]
+[connection signal="pressed" from="Controls/ZamceneDvere" to="." method="_on_zamcene_dvere_pressed"]
 [connection signal="pressed" from="Controls/ZamceneDvere" to="Controls/ZamceneDvere" method="_on_zamknute_dvere"]
 [connection signal="pressed" from="Controls/PodivatSeZaTabuli" to="Controls/CanvasLayer/Panel/Label" method="_on_podivat_se_za_tabuli_pressed"]
 [connection signal="pressed" from="Controls/SebratPravitko" to="Controls" method="_on_sebrat_pravitko_pressed"]
+[connection signal="pressed" from="Controls/HoditMic" to="." method="_on_hodit_mic_pressed"]
 [connection signal="pressed" from="Controls/PodivneSviticiZarivka" to="Controls" method="_on_podivne_svitici_zarivka_pressed"]
 [connection signal="pressed" from="Controls/PodivatSeZOkna" to="Controls" method="_on_podivat_se_z_okna_pressed"]
 [connection signal="pressed" from="Controls/ZhasnoutSvetlo" to="Controls" method="_on_zhasnout_svetlo_pressed"]

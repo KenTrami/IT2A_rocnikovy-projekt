@@ -20,9 +20,6 @@ public partial class Room1Skript : Node
 	{
 		
 	}
-private void _on_zamknute_dvere()
-	{
-		label.Text="Sakra, je zamčeno!";
-	}
+
 
 }
