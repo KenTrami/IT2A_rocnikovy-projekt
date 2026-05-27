@@ -121,6 +121,8 @@ public partial class TlackaSeSvetlem : Button
 	{
 		if(Inventory.ItemCheck("klic")==true && lepidlo==false){
 			label.Text="Hurá! Dveře odemčeny! Mizím odsud.";
+			GetNode<Button>("/root/Node/Controls/ZamceneDvere").Hide();
+			GetNode<Button>("/root/Node/Controls/Odejit").Show();
 		}
 		else if(Inventory.ItemCheck("klic")==true && lepidlo == true)
 		{
@@ -161,4 +163,5 @@ public partial class TlackaSeSvetlem : Button
 			label.Text="Obyčejný líh. Ten zatím brát nebudu.";
 		}
 	}
+	
 }

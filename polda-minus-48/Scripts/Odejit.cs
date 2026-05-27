@@ -1,9 +1,8 @@
 using Godot;
 using System;
 
-public partial class MainmenuSkript : Control
+public partial class Odejit : Button
 {
-	
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
@@ -13,16 +12,10 @@ public partial class MainmenuSkript : Control
 	public override void _Process(double delta)
 	{
 	}
-	private void _on_hrat_pressed()
-	    {
-		    GetTree().ChangeSceneToFile("res://Scenes/Room1.tscn");
-			
-			
-	    }
-	private void _on_button_3_pressed()
+
+	private void _on_odejit_pressed()
 	{
-		GetTree().Quit();
-		
+		GetTree().ChangeSceneToFile("res://Scenes/Chodba.tscn");
+		GD.Print("funguju");
 	}
-	
 }
