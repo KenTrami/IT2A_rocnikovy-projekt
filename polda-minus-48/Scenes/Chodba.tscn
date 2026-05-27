@@ -1,0 +1,101 @@
+[gd_scene format=3 uid="uid://ciiinbs6hqjah"]
+
+[ext_resource type="Texture2D" uid="uid://b80s515uba7j7" path="res://Textures/Chodba.png" id="1_1m522"]
+[ext_resource type="Script" uid="uid://cvl3ik6snd38o" path="res://Scripts/Main.cs" id="1_w008v"]
+
+[node name="Chodba" type="Node" unique_id=1643924357]
+script = ExtResource("1_w008v")
+
+[node name="Chodba" type="Sprite2D" parent="." unique_id=1573815899]
+position = Vector2(959, 539.25)
+scale = Vector2(1.1423446, 1.1344315)
+texture = ExtResource("1_1m522")
+
+[node name="Controls" type="Control" parent="." unique_id=902029116]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1918.0
+offset_bottom = 1077.0
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Controls" unique_id=691758107]
+
+[node name="Panel" type="Panel" parent="Controls/CanvasLayer" unique_id=646664318]
+offset_left = 465.0
+offset_top = 896.0
+offset_right = 1406.0
+offset_bottom = 1082.0
+
+[node name="Label" type="Label" parent="Controls/CanvasLayer/Panel" unique_id=85281686]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 34
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="InventoryUI" type="Panel" parent="Controls" unique_id=1967435861]
+visible = false
+top_level = true
+layout_mode = 0
+offset_left = 391.0
+offset_top = 85.0
+offset_right = 1791.0
+offset_bottom = 711.0
+
+[node name="Label" type="Label" parent="Controls/InventoryUI" unique_id=1611327664]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -129.5
+offset_right = 129.5
+offset_bottom = 171.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 60
+text = "Inventář"
+
+[node name="TamNepudu" type="Button" parent="Controls" unique_id=1303182541]
+layout_mode = 0
+offset_left = 309.0
+offset_top = 232.0
+offset_right = 497.0
+offset_bottom = 898.0
+text = "Odtud jsem přišel"
+
+[node name="Exit" type="Button" parent="Controls" unique_id=702526584]
+layout_mode = 0
+offset_left = 913.0
+offset_top = 479.0
+offset_right = 1056.0
+offset_bottom = 615.0
+
+[node name="Rosltlina" type="Button" parent="Controls" unique_id=1850357713]
+layout_mode = 0
+offset_left = 1063.0
+offset_top = 524.0
+offset_right = 1122.0
+offset_bottom = 629.0
+
+[node name="Skrinky" type="Button" parent="Controls" unique_id=1100327777]
+layout_mode = 0
+offset_left = 1290.0
+offset_top = 167.0
+offset_right = 1920.0
+offset_bottom = 1084.0
+
+[node name="NastenkaStudentu" type="Button" parent="Controls" unique_id=447751803]
+layout_mode = 0
+offset_left = 1153.0
+offset_top = 422.0
+offset_right = 1250.0
+offset_bottom = 581.0
+
+[node name="Nastenka pravidel" type="Button" parent="Controls" unique_id=32921836]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 236.0
+offset_right = 223.0
+offset_bottom = 656.0
