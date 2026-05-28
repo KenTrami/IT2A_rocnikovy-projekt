@@ -29,6 +29,7 @@ Hlavní postava se propadne časoprostorem a objeví se ve školní budově nejm
 - Všechna tlačítka zobrazují text
 ## 26.5.
 - Místnost 1 je hotová.
+- Opravení hitboxů tlačítek v místnosti 1
 
 > [!note]
 > Body označené symbolem "*" jsou zatím pouze ve fázi teorie a není jisté zda-li budou použity, či implementovány
