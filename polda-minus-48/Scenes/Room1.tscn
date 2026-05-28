@@ -73,9 +73,9 @@ offset_bottom = 1078.0
 
 [node name="Panel" type="Panel" parent="Controls/CanvasLayer" unique_id=408960471]
 offset_left = 465.0
-offset_top = 896.0
+offset_top = 894.0
 offset_right = 1406.0
-offset_bottom = 1082.0
+offset_bottom = 1080.0
 
 [node name="Label" type="Label" parent="Controls/CanvasLayer/Panel" unique_id=264397711]
 layout_mode = 1
