@@ -1,0 +1,147 @@
+[gd_scene format=3 uid="uid://cjkjno5pkyjxc"]
+
+[ext_resource type="Texture2D" uid="uid://cgv65qi36serw" path="res://Textures/MENU.png" id="1_853f1"]
+[ext_resource type="Script" uid="uid://dbe5lga1q76oo" path="res://Scripts/MainmenuSkript.cs" id="1_tt5f1"]
+[ext_resource type="AudioStream" uid="uid://ck3tgxy5tjp1u" path="res://Sounds/MainMenu.mp3" id="3_8saeu"]
+
+[sub_resource type="Theme" id="Theme_k6fhs"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g5xlr"]
+bg_color = Color(0.19600001, 0.2, 0.19759999, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+corner_detail = 13
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lupcn"]
+bg_color = Color(0.19607843, 0.2, 0.19607843, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="Node" type="Node" unique_id=822596547]
+
+[node name="Menu2" type="Sprite2D" parent="." unique_id=1638121454]
+position = Vector2(964, 547.25)
+scale = Vector2(1.15311, 1.1684378)
+texture = ExtResource("1_853f1")
+
+[node name="Menu" type="Control" parent="." unique_id=416733214]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -4.0
+offset_right = 7.0
+offset_bottom = 17.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tt5f1")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Menu" unique_id=1179164828]
+layout_direction = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -240.5
+offset_top = -101.5
+offset_right = 243.75
+offset_bottom = 130.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 4
+
+[node name="Button" type="Button" parent="Menu/VBoxContainer" unique_id=2044984858]
+layout_mode = 2
+size_flags_vertical = 3
+theme = SubResource("Theme_k6fhs")
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_g5xlr")
+text = "Hrát"
+script = ExtResource("1_tt5f1")
+
+[node name="Button2" type="Button" parent="Menu/VBoxContainer" unique_id=1929005733]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_lupcn")
+text = "Návod"
+script = ExtResource("1_tt5f1")
+
+[node name="Button3" type="Button" parent="Menu/VBoxContainer" unique_id=962410576]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_lupcn")
+text = "Konec"
+script = ExtResource("1_tt5f1")
+
+[node name="Nastaveni" type="Panel" parent="Menu" unique_id=1773807789]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -470.5
+offset_top = -230.5
+offset_right = 453.5
+offset_bottom = 226.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Menu/Nastaveni" unique_id=1514805566]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -91.5
+offset_top = 4.0
+offset_right = 96.5
+offset_bottom = 87.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 60
+text = "Návod"
+
+[node name="Save" type="Button" parent="Menu/Nastaveni" unique_id=1312512318]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -188.0
+offset_top = -67.0
+offset_right = 188.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_lupcn")
+text = "Zpět"
+script = ExtResource("1_tt5f1")
+
+[node name="text" type="Label" parent="Menu/Nastaveni" unique_id=1030062579]
+layout_mode = 0
+offset_left = 19.0
+offset_top = 84.0
+offset_right = 908.0
+offset_bottom = 371.0
+theme_override_font_sizes/font_size = 40
+text = "V této hře stačí klikat, případně něco psát. Pomocí klávesy \"i\" můžete otevřít inventář. Inventář pouze zobrazuje itemy, které seberete. Pokud dohrajete hru a chcete hrát znovu je nutné hru restartovat!"
+autowrap_mode = 3
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=2026154098]
+stream = ExtResource("3_8saeu")
+autoplay = true
+
+[connection signal="pressed" from="Menu/VBoxContainer/Button" to="Menu/VBoxContainer/Button" method="_on_hrat_pressed"]
+[connection signal="pressed" from="Menu/VBoxContainer/Button2" to="Menu" method="_on_button_2_pressed"]
+[connection signal="pressed" from="Menu/VBoxContainer/Button3" to="Menu/VBoxContainer/Button" method="_on_button_3_pressed"]
+[connection signal="pressed" from="Menu/Nastaveni/Save" to="Menu" method="_on_save_pressed"]

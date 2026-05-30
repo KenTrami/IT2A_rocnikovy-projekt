@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://cub75keshlkr5"]
+
+[ext_resource type="AudioStream" uid="uid://cwk1hgrt7vonb" path="res://Sounds/GoodEnding.mp3" id="1_c1cf0"]
+[ext_resource type="Script" uid="uid://g4l17cfpigfe" path="res://Scripts/ZpetDoMenu.cs" id="2_mas01"]
+
+[node name="GoodEnding" type="Control" unique_id=370310268]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=1948742342]
+layout_mode = 0
+offset_right = 1919.0
+offset_bottom = 1079.0
+
+[node name="Label" type="Label" parent="Panel" unique_id=117881992]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -147.0
+offset_right = 147.0
+offset_bottom = 80.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 40
+text = "Dobrý ending!"
+
+[node name="Text" type="Label" parent="Panel" unique_id=1757079253]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 277.0
+offset_right = 1845.0
+offset_bottom = 448.0
+theme_override_font_sizes/font_size = 40
+text = "Po té co jsi se dostal ze školy jsi došel za Šeňou a dal mu sluchátka. Šeňa ti byl za nalezení jeho sluchátek vděčný a na oplátku ti nabídl přípravu na maturitu z matiky. Díky tomu jsi udělal maturitu z matematiky."
+autowrap_mode = 3
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=213167207]
+stream = ExtResource("1_c1cf0")
+autoplay = true
+
+[node name="ZpetDoMenu" type="Button" parent="." unique_id=585658482]
+layout_mode = 0
+offset_right = 281.0
+offset_bottom = 189.0
+theme_override_font_sizes/font_size = 40
+text = "Konec"
+script = ExtResource("2_mas01")
+
+[connection signal="pressed" from="ZpetDoMenu" to="ZpetDoMenu" method="_on_pressed"]

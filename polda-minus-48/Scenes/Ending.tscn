@@ -1,0 +1,77 @@
+[gd_scene format=3 uid="uid://qgei7lk50x72"]
+
+[ext_resource type="Script" uid="uid://cytn0fdr6g2an" path="res://Scripts/Odpovedi.cs" id="1_sbbak"]
+
+[node name="Endings" type="Control" unique_id=198321345]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_horizontal_guides_ = [894.0]
+
+[node name="BG" type="Panel" parent="." unique_id=1143755294]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="Label" type="Label" parent="." unique_id=1548175529]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -608.0
+offset_right = 696.0
+offset_bottom = 125.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 60
+text = "Tak paráda jsem venku! Copak udělám teď?"
+
+[node name="GoodEnding" type="Button" parent="." unique_id=1198729586]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -516.5
+offset_top = -188.0
+offset_right = 493.0
+offset_bottom = -82.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 40
+text = "Vrátit Šeňovi jeho sluchátka"
+script = ExtResource("1_sbbak")
+
+[node name="BadEnding1" type="Button" parent="." unique_id=1731574193]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -516.5
+offset_top = -54.0
+offset_right = 494.0
+offset_bottom = 54.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 40
+text = "Prodat jeho sluchátka na černém trhu"
+script = ExtResource("1_sbbak")
+
+[node name="BadEnding2" type="Button" parent="." unique_id=1526650977]
+layout_mode = 0
+offset_left = 443.0
+offset_top = 619.0
+offset_right = 1454.0
+offset_bottom = 731.0
+theme_override_font_sizes/font_size = 40
+text = "Vrátit Šeňovi jeho sluchátka, ale požadovat výkupné"
+script = ExtResource("1_sbbak")
+
+[connection signal="pressed" from="GoodEnding" to="GoodEnding" method="_on_good_ending_pressed"]
+[connection signal="pressed" from="BadEnding1" to="GoodEnding" method="_on_bad_ending_1_pressed"]
+[connection signal="pressed" from="BadEnding2" to="GoodEnding" method="_on_bad_ending_2_pressed"]

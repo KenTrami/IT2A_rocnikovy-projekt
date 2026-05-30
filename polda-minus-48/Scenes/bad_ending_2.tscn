@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://c7bqp71wvnyey"]
+
+[ext_resource type="AudioStream" uid="uid://bk6t1wkt8tvk0" path="res://Sounds/Ending2.mp3" id="1_r3nds"]
+[ext_resource type="Script" uid="uid://g4l17cfpigfe" path="res://Scripts/ZpetDoMenu.cs" id="2_jmcgy"]
+
+[node name="BadEnding2" type="Control" unique_id=370310268]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=1948742342]
+layout_mode = 0
+offset_right = 1919.0
+offset_bottom = 1079.0
+
+[node name="Label" type="Label" parent="Panel" unique_id=117881992]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -147.0
+offset_right = 147.0
+offset_bottom = 80.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 40
+text = "Zničené kamarádství ending"
+
+[node name="Text" type="Label" parent="Panel" unique_id=1757079253]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 277.0
+offset_right = 1845.0
+offset_bottom = 448.0
+theme_override_font_sizes/font_size = 40
+text = "Po té co jsi se dostal ze školy jsi došel za Šeňou a nabídnul jsi mu \"svoje stará sluchátka\"
+za přemrštěnou cenu. Karma tě však dostala, protože Šeňa své sluchátka poznal a za tvé lži ti dal takový flákanec, že jsi se z toho posadil na zadek. Po tomto incidentu ti už nikdy nepomohl v matematice a kvůli tomu jsi nedal maturitu z matematiky. Dobře ti tak lháři jeden!"
+autowrap_mode = 3
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=213167207]
+stream = ExtResource("1_r3nds")
+volume_db = -8.069
+pitch_scale = 0.93
+autoplay = true
+
+[node name="ZpetDoMenu" type="Button" parent="." unique_id=269637704]
+layout_mode = 0
+offset_right = 281.0
+offset_bottom = 189.0
+theme_override_font_sizes/font_size = 40
+text = "Konec"
+script = ExtResource("2_jmcgy")
+
+[connection signal="pressed" from="ZpetDoMenu" to="ZpetDoMenu" method="_on_pressed"]

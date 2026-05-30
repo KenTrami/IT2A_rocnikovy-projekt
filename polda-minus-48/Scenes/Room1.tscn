@@ -1,0 +1,289 @@
+[gd_scene format=3 uid="uid://bh5swbn7r1jca"]
+
+[ext_resource type="Script" uid="uid://cvl3ik6snd38o" path="res://Scripts/Main.cs" id="1_ucp0a"]
+[ext_resource type="Texture2D" uid="uid://dpi3xb8d2kh4r" path="res://Textures/Room1 s rozbitou zarivkou.svg" id="2_3w57h"]
+[ext_resource type="Texture2D" uid="uid://hqnrhrxgnls5" path="res://Textures/Room1.svg" id="2_lxq7o"]
+[ext_resource type="Texture2D" uid="uid://mrfrn741k6jk" path="res://Textures/Room1-rosviceno.svg" id="2_minv7"]
+[ext_resource type="Texture2D" uid="uid://ic8nyisf77h7" path="res://Textures/Pravítko.svg" id="3_minv7"]
+[ext_resource type="Texture2D" uid="uid://3uq8mesvbxa6" path="res://Textures/Basketbalový míč.svg" id="5_3w57h"]
+[ext_resource type="Texture2D" uid="uid://bs88q8cw4ejr6" path="res://Textures/klíč.svg" id="5_o7l06"]
+[ext_resource type="Texture2D" uid="uid://de5emisdh7e67" path="res://Textures/MřížkaZeZářivky.svg" id="5_olvpm"]
+[ext_resource type="Script" uid="uid://wnwq71ypequn" path="res://Scripts/PodivatSeZaTabuli.cs" id="6_j3utp"]
+[ext_resource type="Script" uid="uid://c86rnte4n255o" path="res://Scripts/SebratPravitko.cs" id="6_kdje2"]
+[ext_resource type="Script" uid="uid://dv2mr4tyrlxp3" path="res://Scripts/TlackaSeSvetlem.cs" id="7_4uh16"]
+[ext_resource type="Script" uid="uid://bgfs2pwvwx388" path="res://Scripts/SebratMic.cs" id="11_olvpm"]
+[ext_resource type="Script" uid="uid://h0eqlyigi3mn" path="res://Scripts/Odejit.cs" id="12_olvpm"]
+[ext_resource type="Texture2D" uid="uid://d4d8okl5jckxu" path="res://Textures/Líh.svg" id="15_olvpm"]
+[ext_resource type="Texture2D" uid="uid://dpgrdxvattutp" path="res://Textures/isic.svg" id="15_xqepp"]
+
+[node name="Node" type="Node" unique_id=1993851222]
+script = ExtResource("1_ucp0a")
+metadata/_edit_horizontal_guides_ = [150.0, 5.0, 285.0, 106.0, 40.0, 469.0]
+metadata/_edit_vertical_guides_ = [179.0, 38.0, 1628.0]
+
+[node name="Room1SRozbitouZarivkou" type="Sprite2D" parent="." unique_id=1270969226]
+position = Vector2(960, 540)
+texture = ExtResource("2_3w57h")
+
+[node name="Room_1" type="Sprite2D" parent="." unique_id=138993597]
+position = Vector2(960, 540)
+texture = ExtResource("2_lxq7o")
+
+[node name="Room1_Rosviceno" type="Sprite2D" parent="." unique_id=1288104505]
+position = Vector2(960, 540)
+texture = ExtResource("2_minv7")
+
+[node name="Lih" type="Sprite2D" parent="." unique_id=491880385]
+visible = false
+position = Vector2(1097.5, 519)
+scale = Vector2(0.48684055, 0.49757278)
+texture = ExtResource("15_olvpm")
+
+[node name="MřížkaZeZářivky" type="Sprite2D" parent="." unique_id=1373836363]
+visible = false
+position = Vector2(1019, 666)
+scale = Vector2(0.24827294, 0.24440297)
+texture = ExtResource("5_olvpm")
+
+[node name="Pravítko" type="Sprite2D" parent="." unique_id=1985299025]
+position = Vector2(520, 628)
+scale = Vector2(0.89599997, 0.88888854)
+texture = ExtResource("3_minv7")
+
+[node name="Klic" type="Sprite2D" parent="." unique_id=515438341]
+visible = false
+position = Vector2(1030, 108)
+scale = Vector2(0.5, 0.4848485)
+texture = ExtResource("5_o7l06")
+
+[node name="BasketbalovýMíč" type="Sprite2D" parent="." unique_id=511248187]
+visible = false
+position = Vector2(796, 660)
+texture = ExtResource("5_3w57h")
+
+[node name="Controls" type="Control" parent="." unique_id=2131209454]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 3
+anchors_preset = 0
+offset_left = 3.0
+offset_top = 8.0
+offset_right = 1918.0
+offset_bottom = 1078.0
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Controls" unique_id=2128863058]
+
+[node name="Panel" type="Panel" parent="Controls/CanvasLayer" unique_id=408960471]
+offset_left = 465.0
+offset_top = 894.0
+offset_right = 1406.0
+offset_bottom = 1080.0
+
+[node name="Label" type="Label" parent="Controls/CanvasLayer/Panel" unique_id=264397711]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -3.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 34
+text = "Tak jo teleportace úspěšná. Su tady. Načase najít Šeňovi sluchátka a zmizet dřív, než mě tu někdo najde."
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Lih" type="Button" parent="Controls" unique_id=262687944]
+layout_mode = 0
+offset_left = 1041.0
+offset_top = 440.0
+offset_right = 1151.0
+offset_bottom = 591.0
+script = ExtResource("7_4uh16")
+
+[node name="Odejit" type="Button" parent="Controls" unique_id=872940756]
+visible = false
+top_level = true
+layout_mode = 0
+offset_left = 1655.0
+offset_top = 361.0
+offset_right = 1777.0
+offset_bottom = 908.0
+text = "Odejít"
+script = ExtResource("12_olvpm")
+
+[node name="ZamceneDvere" type="Button" parent="Controls" unique_id=1354330770]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 1659.0
+offset_top = 357.0
+offset_right = 1782.0
+offset_bottom = 913.0
+text = "Zkusit otevřít
+dveře"
+script = ExtResource("7_4uh16")
+
+[node name="PodivatSeZaTabuli" type="Button" parent="Controls" unique_id=761607668]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 1249.0
+offset_top = 345.0
+offset_right = 1337.0
+offset_bottom = 464.0
+text = "podívat se
+za tabuli"
+script = ExtResource("6_j3utp")
+
+[node name="SebratPravitko" type="Button" parent="Controls" unique_id=89190552]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 460.0
+offset_top = 554.0
+offset_right = 588.0
+offset_bottom = 666.0
+text = "Sebrat pravítko"
+script = ExtResource("6_kdje2")
+
+[node name="HoditMic" type="Button" parent="Controls" unique_id=893349256]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 870.0
+offset_top = 34.0
+offset_right = 1223.0
+offset_bottom = 136.0
+text = "\"Podívná zářika\"
+obsahující (ulepené klíče)"
+script = ExtResource("7_4uh16")
+
+[node name="PodivneSviticiZarivka" type="Button" parent="Controls" unique_id=976063721]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 870.0
+offset_top = 34.0
+offset_right = 1226.0
+offset_bottom = 141.0
+text = "\"Podívná zářika\"
+obsahující (ulepené klíče)"
+script = ExtResource("7_4uh16")
+
+[node name="PodivatSeZOkna" type="Button" parent="Controls" unique_id=1316042714]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 40.0
+offset_top = 16.0
+offset_right = 236.0
+offset_bottom = 776.0
+text = "Podívat se z okna"
+script = ExtResource("7_4uh16")
+
+[node name="ZhasnoutSvetlo" type="Button" parent="Controls" unique_id=2084679271]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.93500006
+anchor_top = 0.527
+anchor_right = 0.96300006
+anchor_bottom = 0.609
+offset_left = -1.5251465
+offset_top = 9.109985
+offset_right = 1.8548584
+offset_bottom = 6.369995
+script = ExtResource("7_4uh16")
+
+[node name="Umyvadlo" type="Button" parent="Controls" unique_id=150149419]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.82600003
+anchor_top = 0.60700005
+anchor_right = 0.85700005
+anchor_bottom = 0.648
+offset_left = -61.79004
+offset_top = -108.49005
+offset_right = 0.84484863
+offset_bottom = -0.35998535
+script = ExtResource("7_4uh16")
+
+[node name="SebratMic" type="Button" parent="Controls" unique_id=1695592787]
+visible = false
+layout_mode = 0
+offset_left = 742.0
+offset_top = 565.0
+offset_right = 887.0
+offset_bottom = 708.0
+script = ExtResource("11_olvpm")
+
+[node name="InventoryUI" type="Panel" parent="Controls" unique_id=1627578203]
+visible = false
+top_level = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -700.0
+offset_top = -313.0
+offset_right = 700.0
+offset_bottom = 313.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Controls/InventoryUI" unique_id=1822432187]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -129.5
+offset_right = 129.5
+offset_bottom = 171.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 60
+text = "Inventář"
+
+[node name="mic" type="TextureRect" parent="Controls/InventoryUI" unique_id=836467742]
+visible = false
+layout_mode = 0
+offset_left = 313.0
+offset_top = 108.0
+offset_right = 454.0
+offset_bottom = 241.0
+texture = ExtResource("5_3w57h")
+
+[node name="isic" type="TextureRect" parent="Controls/InventoryUI" unique_id=1347702665]
+visible = false
+layout_mode = 0
+offset_left = 645.0
+offset_top = 148.0
+offset_right = 753.0
+offset_bottom = 213.0
+texture = ExtResource("15_xqepp")
+
+[node name="klic" type="TextureRect" parent="Controls/InventoryUI" unique_id=1284060590]
+visible = false
+layout_mode = 0
+offset_left = 500.0
+offset_top = 142.0
+offset_right = 584.0
+offset_bottom = 210.0
+texture = ExtResource("5_o7l06")
+
+[node name="pravitko" type="TextureRect" parent="Controls/InventoryUI" unique_id=383832844]
+visible = false
+layout_mode = 0
+offset_left = 135.0
+offset_top = 154.0
+offset_right = 282.0
+offset_bottom = 186.0
+texture = ExtResource("3_minv7")
+
+[connection signal="pressed" from="Controls/Lih" to="." method="_on_lih_pressed"]
+[connection signal="pressed" from="Controls/Odejit" to="." method="_on_odejit_pressed"]
+[connection signal="pressed" from="Controls/ZamceneDvere" to="." method="_on_zamcene_dvere_pressed"]
+[connection signal="pressed" from="Controls/ZamceneDvere" to="Controls/ZamceneDvere" method="_on_zamknute_dvere"]
+[connection signal="pressed" from="Controls/PodivatSeZaTabuli" to="Controls/CanvasLayer/Panel/Label" method="_on_podivat_se_za_tabuli_pressed"]
+[connection signal="pressed" from="Controls/SebratPravitko" to="Controls" method="_on_sebrat_pravitko_pressed"]
+[connection signal="pressed" from="Controls/HoditMic" to="." method="_on_hodit_mic_pressed"]
+[connection signal="pressed" from="Controls/PodivneSviticiZarivka" to="Controls" method="_on_podivne_svitici_zarivka_pressed"]
+[connection signal="pressed" from="Controls/PodivatSeZOkna" to="Controls" method="_on_podivat_se_z_okna_pressed"]
+[connection signal="pressed" from="Controls/ZhasnoutSvetlo" to="Controls" method="_on_zhasnout_svetlo_pressed"]
+[connection signal="pressed" from="Controls/Umyvadlo" to="." method="_on_umyvadlo_pressed"]
+[connection signal="pressed" from="Controls/SebratMic" to="." method="_on_sebrat_mic_pressed"]

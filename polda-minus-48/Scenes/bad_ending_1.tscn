@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://d11u8a4pnh8lr"]
+
+[ext_resource type="AudioStream" uid="uid://fspe8vwb81tn" path="res://Sounds/CejlEnding.mp3" id="1_7redy"]
+[ext_resource type="Script" uid="uid://g4l17cfpigfe" path="res://Scripts/ZpetDoMenu.cs" id="2_5ts8g"]
+
+[node name="BadEnding1" type="Control" unique_id=370310268]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=1948742342]
+layout_mode = 0
+offset_right = 1919.0
+offset_bottom = 1079.0
+
+[node name="Label" type="Label" parent="Panel" unique_id=117881992]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -147.0
+offset_right = 147.0
+offset_bottom = 80.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 40
+text = "Cejl ending"
+
+[node name="Text" type="Label" parent="Panel" unique_id=1757079253]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 277.0
+offset_right = 1845.0
+offset_bottom = 448.0
+theme_override_font_sizes/font_size = 40
+text = "Po té co jsi se dostal ze školy upaloval jsi prodat Šeňovi sluchátka na černý trh. Peníze sis však dlouho neužil, neboť jsi byl na Cejlu přepadnut skupinkou nejmenovaných lidí a okraden o všechny tvé  nečestně vydělané peníze."
+autowrap_mode = 3
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=213167207]
+stream = ExtResource("1_7redy")
+volume_db = -1.793
+pitch_scale = 0.9
+autoplay = true
+
+[node name="ZpetDoMenu" type="Button" parent="." unique_id=409605387]
+layout_mode = 0
+offset_right = 281.0
+offset_bottom = 189.0
+theme_override_font_sizes/font_size = 40
+text = "Konec"
+script = ExtResource("2_5ts8g")
+
+[connection signal="pressed" from="ZpetDoMenu" to="ZpetDoMenu" method="_on_pressed"]
