@@ -39,3 +39,114 @@ Hlavní postava se propadne časoprostorem a objeví se ve školní budově nejm
 -Do některých sekcí byla přidána hudba
 
 ## Jak si zahrát tuto hru?
+
+# Návod ke spuštění Godot C# projektu z GitHubu
+
+## 1. Stažení projektu
+
+Otevřete repozitář:
+Klikněte na:
+
+```text
+Code → Download ZIP
+```
+
+Stažený ZIP soubor rozbalte do libovolné složky.
+
+---
+
+## 2. Instalace Godot .NET
+
+Protože projekt používá jazyk C#, je potřeba použít **Godot .NET** (verzi s podporou C#).
+
+Stáhnout lze z oficiálních stránek:
+
+https://godotengine.org/download
+
+---
+
+## 3. Instalace .NET SDK
+
+Otevřete příkazový řádek a zadej:
+
+```bash
+dotnet --version
+```
+
+Pokud se zobrazí číslo verze, máte .NET SDK nainstalované.
+
+Pokud ne, stáhněte jej z:
+
+https://dotnet.microsoft.com/download
+
+---
+
+## 4. Otevření projektu v Godotu
+
+1. Spusťte Godot .NET.
+2. Klikněte na tlačítko **Import**.
+3. Vyber soubor:
+
+```text
+project.godot
+```
+
+4. Potvrďte import projektu.
+
+---
+
+## 5. Vytvoření C# řešení (pokud je potřeba)
+
+Pokud Godot hlásí problémy s C# projektem:
+
+1. Otevřete projekt.
+2. V horním menu klikněte na:
+
+```text
+Project → Tools → C# → Create C# Solution
+```
+
+Godot vytvoří potřebné soubory:
+
+```text
+NazevProjektu.csproj
+NazevProjektu.sln
+```
+
+---
+
+## 6. Sestavení projektu
+
+V editoru Godotu klikněte na:
+
+```text
+Build
+```
+
+nebo použij klávesovou zkratku:
+
+```text
+Ctrl + Shift + B
+```
+
+Po úspěšném sestavení by se měla zobrazit zpráva:
+
+```text
+Build succeeded
+```
+
+---
+
+## 7. Spuštění hry
+
+Klikni na tlačítko:
+
+```text
+Run Project
+```
+
+nebo stiskni:
+
+```text
+F5
+```
