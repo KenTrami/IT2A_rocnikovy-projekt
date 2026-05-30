@@ -32,11 +32,10 @@ Hlavní postava se propadne časoprostorem a objeví se ve školní budově nejm
 - Opravení hitboxů tlačítek v místnosti 1
 ## 28.5
 - Místnost 2 je z 98% hotová
+## 30.5.
+-Místnost 2 je hotová
+-Přidány 3 endingy
+-Inventář zobrazuje itemy, které jsou sebrány
+-Do některých sekcí byla přidána hudba
 
-> [!note]
-> Body označené symbolem "*" jsou zatím pouze ve fázi teorie a není jisté zda-li budou použity, či implementovány
-> Další kapitola pojednává o seznamu předmětů a jak postupovat
-
-## Místnost 1 - Třída
-### Cíl- dostat se ze zamčené třídy
-### Předměty a interakce:
+## Jak si zahrát tuto hru?
