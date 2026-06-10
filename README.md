@@ -7,7 +7,7 @@
 - Inkscape
 
 ## Plán hry
-Hlavní postava se propadne časoprostorem a objeví se ve školní budově nejmenované školy. Hlavní protagonista chce odejít z místa ve, kterém se zjevil. Háček je ale v tom, že dveře jsou zamčené...
+Hlavní postava se propadne časoprostorem, protože chce zachrání sluchátka svého kamaráda a objeví se ve školní budově nejmenované školy. Hlavní protagonista chce najít sluchátka a odejít z místa ve, kterém se objevil. Háček je ale v tom, že dveře jsou zamčené...
 
 ## 15.4.
 - Přídání místnosti 1 (Místnost 1 nemá finální podobu)
