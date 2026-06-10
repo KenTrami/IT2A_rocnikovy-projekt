@@ -1,4 +1,6 @@
 # IT2A_rocnikovy-projekt
+## Odkaz na prezentaci:
+https://sstebrnocz-my.sharepoint.com/:p:/r/personal/61780adamec_student_sstebrno_cz/_layouts/15/doc2.aspx?sourcedoc=%7BE79CE368-7818-43C4-BAA9-4799D776F9E1%7D&file=Polda%20minus48.pptx&action=edit&mobileredirect=true&DefaultItemOpen=1&ct=1781081468364&wdOrigin=OFFICECOM-WEB.MAIN.EDGEWORTH&cid=d147e740-c387-478e-8e1d-8d0500657190&wdPreviousSessionSrc=unknown&wdPreviousSession=a8dfdaa0-c283-452a-ad2d-2e4fb8e70b22
 ## Jazyk programu:
 - c#
 ## Programy ve kterých se bude pracovat:
