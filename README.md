@@ -33,10 +33,10 @@ Hlavní postava se propadne časoprostorem, protože chce zachrání sluchátka 
 ## 28.5
 - Místnost 2 je z 98% hotová
 ## 30.5.
--Místnost 2 je hotová
--Přidány 3 endingy
--Inventář zobrazuje itemy, které jsou sebrány
--Do některých sekcí byla přidána hudba
+- Místnost 2 je hotová
+- Přidány 3 endingy
+- Inventář zobrazuje itemy, které jsou sebrány
+- Do některých sekcí byla přidána hudba
 
 ## Jak si zahrát tuto hru?
 
