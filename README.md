@@ -38,8 +38,6 @@ Hlavní postava se propadne časoprostorem, protože chce zachrání sluchátka 
 - Inventář zobrazuje itemy, které jsou sebrány
 - Do některých sekcí byla přidána hudba
 
-## Jak si zahrát tuto hru?
-
 # Návod ke spuštění Godot C# projektu z GitHubu
 
 ## 1. Stažení projektu
